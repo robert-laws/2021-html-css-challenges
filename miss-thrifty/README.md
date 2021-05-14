@@ -27,15 +27,15 @@
   <nav>
     <div class="main-navigation">
       <a href="/">Home</a>
-      <a href="/">Home</a>
-      <a href="/">Home</a>
-      <a href="/">Home</a>
+      <a href="/">About</a>
+      <a href="/">Archives</a>
+      <a href="/">Contact Me</a>
     </div>
     <div class="social-navigation">
+      <i class="facebook"></i>
       <i class="twitter"></i>
-      <i class="twitter"></i>
-      <i class="twitter"></i>
-      <i class="twitter"></i>
+      <i class="youtube"></i>
+      <i class="instagram"></i>
       <i class="search-icon"></i>
     </div>
   </nav>
