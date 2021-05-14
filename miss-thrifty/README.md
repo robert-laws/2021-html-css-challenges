@@ -4,11 +4,17 @@
 - [html file](index.html)
 - [css file](styles.css)
 
+Webpage Sectional Areas
+
+- [Main Header](#main-header)
+- [Content Section](#content-section)
+- [Main Footer](#main-footer)
+
 ---
 
-## Main Header
+## Site Header
 
-### Main Header Outline
+### Site Header Outline
 
 - header
   - nav
@@ -24,7 +30,7 @@
       - social icon link
       - search icon
 
-### Main Header HTML
+### Site Header HTML
 
 ```html
 <header>
@@ -46,3 +52,11 @@
   <h1>site title</h1>
 </header>
 ```
+
+## Content Section
+
+...
+
+## Main Footer
+
+...
