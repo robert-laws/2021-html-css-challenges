@@ -1,6 +1,10 @@
 # Miss Thrifty
 
-...
+- [existing website screenshot](blog-miss-thrifty-full-screen.png)
+- [html file](index.html)
+- [css file](styles.css)
+
+---
 
 ## Main Header
 
