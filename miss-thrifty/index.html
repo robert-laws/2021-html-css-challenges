@@ -4,86 +4,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="social-media-icons.css" />
     <title>Miss Thrifty</title>
   </head>
   <body>
     <!-- Header Section -->
-    <header>
-      <nav>
-        <div class="main-navigation">
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Archives</a>
-          <a href="/">Contact Me</a>
-        </div>
-        <div class="social-navigation">
-          <i class="facebook"></i>
-          <i class="twitter"></i>
-          <i class="youtube"></i>
-          <i class="instagram"></i>
-          <i class="search-icon"></i>
-          social links
-        </div>
-      </nav>
+    <header class="site-header">
+      <!-- Main Navigation -->
+      <section>
+        <nav>
+          <div class="main-navigation">
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Archives</a>
+            <a href="/">Contact Me</a>
+          </div>
+          <div class="social-navigation">
+            <a href="#"><i class="gg-facebook"></i></a>
+            <a href="#"><i class="gg-twitter"></i></a>
+            <a href="#"><i class="gg-youtube"></i></a>
+            <a href="#"><i class="gg-instagram"></i></a>
+            <a href="#"><i class="gg-search"></i></a>
+          </div>
+        </nav>
+      </section>
+      <!-- Site Title -->
       <h1>miss thrifty</h1>
     </header>
 
     <!-- Content Section -->
-    <section>
-      <main>
-        <header>
-          <h3>The Latest Miss Thrifty Posts</h3>
-          <div>hamburger icon</div>
-        </header>
-        <section>
-          <!-- Serialized Articles - Blog Posts -->
-          <article>
-            <section>
-              <img src="picture.jpg" alt="Blog Post" />
-            </section>
-            <section>
-              <p>Thrifty Home</p>
-              <p>The Mythbuster's Guide to Saving Money on Energy Bills</p>
-              <p>
-                Once you get past the beginner-level energy-saving stuff, a
-                whole new world of thrifty nerdy opens up. Here are some secrets
-                to coping a load of money off your utilities bills.
-                <span>Get the lowdown >></span>
-              </p>
-              <section>
-                <div>
-                  <img src="picture.jpg" alt="Post author avatar" />
-                  <span>Miss Thrifty</span>
-                </div>
-                <div><i></i><span></span></div>
-                <div><i></i><span>September 5, 2018</span></div>
+    <section class="site-content">
+      <!-- Section header -->
+
+      <section class="site-content-wrapper">
+        <section class="main-content">
+          <header>
+            <h3>The Latest Miss Thrifty Posts</h3>
+            <div><i class="gg-menu"></i></div>
+          </header>
+          <main>
+            <!-- Serialized Articles - Blog Posts -->
+            <article class="blog-post-article">
+              <section class="blog-post-article-image">
+                <img src="https://picsum.photos/150" alt="Blog Post" />
               </section>
-            </section>
-          </article>
-        </section>
-      </main>
-      <section>
-        <section>
-          <h2>join the thrifties</h2>
-          <p>Get the latest posts & deals by email:</p>
-          <input type="text" />
-          <button type="button">Subscribe to the free Daily Digest</button>
-          <p><a href="#">See a sample Daily Digest email</a></p>
-        </section>
-        <aside>
-          <h3>popular posts</h3>
-          <section>
-            <article>
-              <section>
-                <img src="picture.jpg" alt="Popular Post" />
-              </section>
-              <section>
-                <p>Become an expert haggler in four easy steps</p>
-                <p>January 16, 2014</p>
+              <section class="blog-post-article-content">
+                <p class="blog-post-article-category">Thrifty Home</p>
+                <p class="blog-post-article-title">
+                  The Mythbuster's Guide to Saving Money on Energy Bills
+                </p>
+                <p class="blog-post-article-description">
+                  Once you get past the beginner-level energy-saving stuff, a
+                  whole new world of thrifty nerdy opens up. Here are some
+                  secrets to coping a load of money off your utilities bills.
+                  <span>Get the lowdown >></span>
+                </p>
+                <section class="blog-post-article-meta">
+                  <div class="blog-post-article-meta-detail">
+                    <img
+                      src="https://picsum.photos/36"
+                      alt="Post author avatar"
+                    />
+                    <span>Miss Thrifty</span>
+                  </div>
+                  <div class="blog-post-article-meta-detail">
+                    <i class="gg-comment"></i><span>0</span>
+                  </div>
+                  <div class="blog-post-article-meta-detail">
+                    <i class="gg-calendar-dates"></i
+                    ><span>September 5, 2018</span>
+                  </div>
+                </section>
               </section>
             </article>
+          </main>
+          <!-- Sidebar content -->
+        </section>
+        <section class="aside-content">
+          <!-- Newsletter sign up form -->
+          <section>
+            <h2>join the thrifties</h2>
+            <p>Get the latest posts & deals by email:</p>
+            <input type="text" />
+            <button type="button">Subscribe to the free Daily Digest</button>
+            <p><a href="#">See a sample Daily Digest email</a></p>
           </section>
-        </aside>
+          <!-- Associated popular posts -->
+          <aside>
+            <h3>popular posts</h3>
+            <section>
+              <article>
+                <section>
+                  <img src="https://picsum.photos/36" alt="Popular Post" />
+                </section>
+                <section>
+                  <p>Become an expert haggler in four easy steps</p>
+                  <p>January 16, 2014</p>
+                </section>
+              </article>
+            </section>
+          </aside>
+        </section>
       </section>
     </section>
 
@@ -93,7 +116,7 @@
         <div>
           <h4>popular posts</h4>
           <figure>
-            <img src="picture.jpg" alt="Footer Post" />
+            <img src="https://picsum.photos/36" alt="Footer Post" />
             <figcaption>Become an expert haggler in four easy steps</figcaption>
           </figure>
         </div>
