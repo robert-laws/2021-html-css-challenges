@@ -272,7 +272,7 @@ body {
 .site-footer {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .site-footer-wrapper {
@@ -326,6 +326,6 @@ body {
 
 .site-footer-copyright {
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
   color: #444;
 }
