@@ -125,7 +125,7 @@ a.branding-navbar-link:active {
   padding: 3rem;
 }
 
-.blog-post {
+.blog-post:not(:last-child) {
   border-bottom: 1px solid var(--light-gray);
 }
 
@@ -133,6 +133,7 @@ a.branding-navbar-link:active {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
 .blog-post:not(:first-child) .blog-post-title {
   margin-top: 2rem;
 }
@@ -202,7 +203,9 @@ a.branding-navbar-link:active {
 }
 
 .site-content-sidebar-search input,
-.site-content-sidebar-search button {
+.site-content-sidebar-search button,
+.footer-tools-bottom input,
+.footer-tools-bottom button {
   width: 100%;
 }
 
@@ -210,6 +213,7 @@ a.branding-navbar-link:active {
   font-size: 1.2rem;
 }
 
+.footer-tools-bottom input,
 .site-content-sidebar-search input {
   padding: 0.8rem;
   border: 1px solid var(--lighter-gray);
@@ -217,6 +221,7 @@ a.branding-navbar-link:active {
   font-size: 0.9rem;
 }
 
+.footer-tools-bottom button,
 .site-content-sidebar-search button {
   border: none;
   padding: 1rem;
@@ -224,4 +229,93 @@ a.branding-navbar-link:active {
   color: var(--light-gray-text);
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  padding: 2rem;
+  background-color: var(--mid-green);
+}
+
+footer .site-content {
+  display: flex;
+  padding: 0 5rem;
+}
+
+.footer-tools {
+  flex: 3;
+  padding: 1rem 4rem 1rem 0;
+}
+
+.footer-tools-top {
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+.footer-branding {
+  font-size: 2rem;
+}
+
+.footer-social-icons {
+  margin: 0 1.8rem;
+}
+
+.footer-social-icon {
+  margin: 0 0.4rem;
+  font-size: 1.75rem;
+}
+
+a.footer-social-icon,
+a.footer-social-icon:link,
+a.footer-social-icon:visited {
+  color: var(--dark-text);
+}
+
+a.footer-social-icon:hover,
+a.footer-social-icon:active {
+  color: var(--darkest-green);
+}
+
+.footer-tools-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-tools-bottom input {
+  margin-bottom: 0.6rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 160px;
+  margin: 1rem 1.5rem;
+}
+
+.footer-links a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a,
+.footer-links a:link,
+.footer-links a:visited {
+  color: var(--dark-text);
+}
+
+.footer-disclaimer {
+  flex: 2;
+  margin: 1rem;
+}
+
+.footer-disclaimer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-disclaimer p {
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
 }
