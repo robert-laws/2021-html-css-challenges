@@ -36,6 +36,8 @@ Ultimately, the CSS for the webpage will work in combination between the constit
 
 Although designing and coding different examples of websites presents a challenge in itself, the process can be further enhanced by also implementing additional learning concepts to the challenge. HTML and CSS are full of advanced features and new features are being added constantly. For example, using web fonts in a challenge adds an additional learning opportunity and helps to a uniqueness to each individual challenge. This helps maximize the knowledge and experience gained by completing each challenge.
 
+---
+
 ## Workflow
 
 1. identify a website as inspiration for the challenge
