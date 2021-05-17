@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
       <section class="navbar header-top-navbar">
         <!-- social icons -->
@@ -37,11 +38,12 @@
       <div class="header-wrapper">
         <nav class="navbar header-main-navbar">
           <!-- branding -->
-          <a class="main-navbar-link" href="#"
+          <a class="branding-navbar-link" href="#"
             ><h1 class="flex-center header-main-navbar-branding">
               Site Branding
             </h1></a
           >
+          <!-- main navigation -->
           <div class="flex-center header-main-navbar-links">
             <a class="main-navbar-link" href="#">Site Link</a>
             <a class="main-navbar-link" href="#">Site Link</a>
@@ -50,5 +52,38 @@
         </nav>
       </div>
     </header>
+
+    <!-- site content -->
+    <section class="site-content">
+      <!-- main content - blog posts -->
+      <main class="content-zone site-content-main">
+        <article class="blog-post">
+          <h2 class="blog-post-title">Title</h2>
+          <section class="blog-post-meta">
+            <p class="blog-post-meta-date">Date</p>
+            <p class="blog-post-meta-author">Author</p>
+          </section>
+          <img src="books.jpg" alt="blog post image" />
+          <p class="blog-post-description">Description</p>
+          <p class="blog-post-read-more">Read More</p>
+        </article>
+        <article class="blog-post">
+          <h2 class="blog-post-title">Title</h2>
+          <section class="blog-post-meta">
+            <p class="blog-post-meta-date">Date</p>
+            <p class="blog-post-meta-author">Author</p>
+          </section>
+          <img src="books.jpg" alt="blog post image" />
+          <p class="blog-post-description">Description</p>
+          <p class="blog-post-read-more">Read More</p>
+        </article>
+      </main>
+
+      <!-- sidebar content -->
+      <div class="content-zone site-content-sidebar">
+        <aside class="site-content-sidebar-content">sidebar</aside>
+        <section class="site-content-sidebar-search">search</section>
+      </div>
+    </section>
   </body>
 </html>
