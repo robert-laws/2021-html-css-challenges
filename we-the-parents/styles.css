@@ -205,6 +205,8 @@ a.branding-navbar-link:active {
 }
 
 .site-content-sidebar-content img {
+  width: 184px;
+  height: 184px;
   border-radius: 300px;
   margin-bottom: 1.5rem;
 }
