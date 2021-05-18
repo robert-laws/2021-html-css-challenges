@@ -1,14 +1,23 @@
-# UX/HTML/CSS Challenge - Blog Website
+# UX/HTML/CSS Challenge # 1 - Blog Website
 
 ## The Challenge
 
-The challenge for today is to design and develop a blogging website. The inspiration for this challenge comes from the website [We The Parents](https://wetheparents.org), which is a blogging website for parents.
+The first challenge is a blogging website. The inspiration for this challenge comes from the website [We The Parents](https://wetheparents.org), which is a blog intended for parents.
 
-The homepage of this website has many common features found on blogging websites including a header with navigation, a list of several blog entries with teaser content, and a footer. There's also a sidebar with some basic narrative information about the website and it's purpose.
+The challenge is to recreate the design of the website homepage. The process begins by breaking down the design with the tool Adobe XD. After that, it's on to VSCode to begin putting together the HTML layout before finally adding the CSS styling.
 
 ## The Website Structure
 
-The structure of the website is divided into just a few major groupings. There's a header which contains a top navbar and the main website navigation. The middle section of the website contains the main content - the blog post teasers - and the sidebar content. Finally, there's a footer section.
+The homepage of the website has many common features found on a blogging website including:
+
+- header with navigational links
+- list of several blog entries with teaser content
+- sidebar with some basic narrative information
+- footer with copyright and additional navigation.
+
+The main challenge of the website is deciding how to divide up the website into semantic sections such as the header, footer, main and aside content areas. Within larger semantic sections like the header, the structure can be further subdivided into smaller groupings, such as textual and social icons navigational groups. The design used an atomic design approach to identify building blocks or atoms that could be combined to make grouped units or molecules and further combined to make up organisms, as shown below for the elements composing the sidebar section of the website.
+
+<!-- add sidebar atoms, molecules, and organisms -->
 
 <!-- Image of website structure -->
 
