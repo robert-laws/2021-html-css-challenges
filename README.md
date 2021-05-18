@@ -26,9 +26,74 @@ Another key benefit of approaching the process of coding HTML after a thorough U
 
 The important idea behind the HTML phase of the challenge is to focus on structure and semantics rather than look & feel. The outcome will be a fully structured HTML document, which will not look very attractive on its own since it will lack styling. However, this will be fixed in the next stage, applying the CSS to the HTML.
 
+```html
+<article class="blog-post-article">
+  <section class="blog-post-article-image">
+    <img src="vscode-post-image.png" alt="VSCode for Web Developers" />
+  </section>
+  <section class="blog-post-article-content">
+    <p class="blog-post-article-category">Blogger News</p>
+    <p class="blog-post-article-title">
+      Five New Features for Web Developers in the Latest Release of VSCode
+    </p>
+    <p class="blog-post-article-description">
+      The latest version of VSCode has some great new features for web
+      developers including enhancements for code previews, VCS workflow
+      improvements, and better debugging.
+      <span>Get the details >></span>
+    </p>
+    <section class="blog-post-article-meta">
+      <div class="blog-post-article-meta-detail">
+        <img src="https://picsum.photos/36" alt="Post author avatar" />
+        <span>Blog Buddy</span>
+      </div>
+      <div class="blog-post-article-meta-detail">
+        <i class="gg-comment"></i><span>14</span>
+      </div>
+      <div class="blog-post-article-meta-detail">
+        <i class="gg-calendar-dates"></i><span>February 5, 2020</span>
+      </div>
+    </section>
+  </section>
+</article>
+```
+
 ## CSS
 
 In order to match the output from the UX design process to the final webpage, the HTML must be transformed with CSS. The approach to the CSS mirrors the HTML development process in that CSS can be applied to parts of the HTML code in isolation. For example, a navigational link will have a distinctive styling that is independent of its layout within a navigational menu arrangement. CSS can be applied at the level its needed, building from atoms through organisms and/or templates. Even the final pages will have styling which is unique to itself.
+
+```css
+.blog-post-article-image {
+  flex: 0 190px;
+  padding: 0 20px;
+}
+
+.blog-post-article-content {
+  flex: 1 100%;
+}
+
+.blog-post-article-category {
+  font-size: 0.7rem;
+  color: #85c8d0;
+  text-transform: uppercase;
+}
+
+.blog-post-article-title {
+  font-size: 2.25rem;
+  color: #444;
+  margin: 10px 0 30px;
+}
+
+.blog-post-article-description {
+  margin: 0 0 30px;
+  line-height: 1.25rem;
+}
+
+.blog-post-article-description span {
+  color: #ff3356;
+  margin-left: 4px;
+}
+```
 
 Ultimately, the CSS for the webpage will work in combination between the constituent parts to unify the final webpage structure and look & feel. At this point, the challenge is completed.
 
@@ -38,7 +103,7 @@ Although designing and coding different examples of websites presents a challeng
 
 ---
 
-## Workflow
+## Challenge Workflow
 
 1. identify a website as inspiration for the challenge
 1. take a full screenshot to serve as a reference
