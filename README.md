@@ -10,7 +10,7 @@ The first step in the challenge process is to identify a website as inspiration.
 
 ## UX Design
 
-Experience has taught me that it's a bad idea to jump right into coding a website without having a good plan in place first. Part of the plan is understanding the basic structure and layout of a website and it's core design elements like the color palette, typography, and reusable components. Following the principles behind [Atomic Design](https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101), elements within a website can be defined from small to large building blocks.
+Experience has taught me that it's a bad idea to jump right into coding a website without having a good plan in place first. Part of the plan is understanding the basic structure and layout of a website and its core design elements like the color palette, typography, and reusable components. Following the principles behind [Atomic Design](https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101), elements within a website can be defined from small to large building blocks.
 
 Using a tool like Adobe XD, the atomic design methodology can be applied by creating atoms as base-level components and molecules as nested-components. From there, organisms can be built as grouped molecules and, if needed, grouped further to create templates. Finally, pages are built by combining organisms/templates to a final design and layout.
 
@@ -104,6 +104,8 @@ Although designing and coding different examples of websites presents a challeng
 ---
 
 ## Challenge Workflow
+
+The following workflow is a condensed version of the detailed information presented above. It's meant to serve as a general guideline for working through a challenge.
 
 1. identify a website as inspiration for the challenge
 1. take a full screenshot to serve as a reference
