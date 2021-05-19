@@ -17,6 +17,8 @@
 
   --light-gray: #e6e6e6;
   --lighter-gray: #f0f0f0;
+
+  --white: #ffffff;
 }
 
 /* typography */
@@ -245,7 +247,7 @@ a.branding-navbar-link:active {
 }
 
 .site-content-sidebar-search h4 {
-  font-size: 1.25srem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }

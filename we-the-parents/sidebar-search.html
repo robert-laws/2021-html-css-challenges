@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Search</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .site-content-sidebar-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 1.25rem 0;
+        background-color: #fdfefd;
+        border-top: 5px solid #cdeccc;
+      }
+
+      .site-content-sidebar-search h4 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .site-content-sidebar-search input,
+      .site-content-sidebar-search button {
+        font-size: 1.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .site-content-sidebar-search input {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid#f0f0f0;
+        box-shadow: inset 0 0 1px #929292;
+        font-size: 0.9rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .site-content-sidebar-search input:focus {
+        outline: none;
+        border: 1px solid #8cac8b;
+      }
+
+      ::placeholder {
+        color: lightgray;
+        opacity: 1;
+      }
+
+      .site-content-sidebar-search button {
+        width: 100%;
+        border: none;
+        padding: 1rem;
+        background-color: #cdeccc;
+        color: #929292;
+        font-size: 0.9rem;
+        cursor: pointer;
+      }
+
+      .site-content-sidebar-search button:hover {
+        background-color: #8cac8b;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="site-content-sidebar-search">
+      <h4>Search Blog Posts</h4>
+      <input type="text" placeholder="Enter your search term(s)" />
+      <button>Search</button>
+    </section>
+  </body>
+</html>
