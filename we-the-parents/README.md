@@ -2,13 +2,13 @@
 
 ## The Challenge
 
-The first challenge in the UX/HTML/CSS Design and Code Challenge series is a blogging website. The inspiration for this challenge comes from the website [We The Parents](https://wetheparents.org), which is a blog intended for parents.
+The first challenge in the UX/HTML/CSS Design and Code Challenge series is a blogging website. Although the design and layout of blogging websites can be simple, they can offer many interesting challenges for design and code. The inspiration for this challenge comes from the website [We The Parents](https://wetheparents.org), which is a blog intended for parents.
 
 The challenge is to recreate the design of the website homepage. The process begins by breaking down the design with the tool Adobe XD. After that, it's on to VSCode to begin putting together the HTML layout before finally adding the CSS styling.
 
 ## Website Structure
 
-The homepage of the website has many common features found on a blogging website including:
+The first part of the challenge is to analyze, break down, and replicate the structure of the inspiration website into my own layout and design. The homepage of the website has many common features found on a blogging website including:
 
 - header with different types of navigational links
 - content are with a list of blog teasers
