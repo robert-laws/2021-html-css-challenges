@@ -96,7 +96,7 @@ a.top-navbar-link:active {
 a.branding-navbar-link {
   text-decoration: none;
   font-family: 'Pacifico Regular', cursive;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 a.main-navbar-link {
@@ -232,7 +232,8 @@ a.branding-navbar-link:active {
 }
 
 .site-content-sidebar-search > * {
-  margin: 0.4rem 0;
+  margin: 0.25rem 0;
+  font-size: 1.25rem;
   font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
@@ -244,8 +245,9 @@ a.branding-navbar-link:active {
 }
 
 .site-content-sidebar-search h4 {
-  font-size: 1.2rem;
+  font-size: 1.25srem;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .footer-tools-bottom input,
@@ -294,7 +296,7 @@ footer .site-content {
 }
 
 .footer-branding {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .footer-social-icons {
