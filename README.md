@@ -1,5 +1,11 @@
 # 2021 - UX/HTML/CSS Challenges
 
+## Challenges List
+
+- [Challenge no. 1](we-the-parents/README.md)
+
+---
+
 ## Concept
 
 My personal goal for 2021 is to prepare myself to get a web developer job. To that end, I'm reviewing and refining fundamental skills needed as a web developer including HTML & CSS. I'm also very interested in developing UX design process skills. To that end, I'm kicking off what I'm calling a UX/HTML/CSS Challenge. The basic idea of the challenge is to find an existing website as inspiration for a design and then follow a process of designing a cloned version and coding it with HTML and CSS.
