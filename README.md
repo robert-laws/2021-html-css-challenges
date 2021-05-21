@@ -2,7 +2,7 @@
 
 ## Challenges List
 
-- [Challenge no. 1](we-the-parents/README.md)
+- [Challenge no. 1](working-projects/completed/we-the-parents/README.md)
 
 ---
 
