@@ -1,0 +1,29 @@
+/* Challenge Two */
+
+/* FONTS */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-weight: 100 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sacramento Regular';
+  src: url('fonts/Sacramento-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+.logo span {
+  font-family: 'Sacramento Regular', cursive;
+  font-size: 2.2rem;
+}
