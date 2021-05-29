@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 /* Challenge Two */
 
 /* FONTS */
@@ -17,8 +19,6 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
-
 /* COLORS */
 :root {
   --brand-primary: #734061;
@@ -35,7 +35,7 @@
 }
 
 /* HEADER */
-header {
+.header {
   width: 1280px;
   height: 100px;
   margin: 0 auto;
@@ -44,7 +44,7 @@ header {
   align-items: center;
 }
 
-/* LOGO */
+/* HEADER - LOGO */
 .logo {
   font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -68,7 +68,7 @@ header {
   color: var(--light);
 }
 
-/* NAVIGATION */
+/* HEADER - NAVIGATION */
 .navigation {
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ header {
 .navigation a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: var(--black);
   text-decoration: none;
@@ -123,4 +123,53 @@ header {
 
 .search-icon:hover {
   color: var(--black);
+}
+
+/* HERO */
+
+/* HERO - HEADER */
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* HERO - HEADER - TITLE */
+.hero-title {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--dark)
+}
+
+.hero-title span {
+  font-family: 'Allura', cursive;
+  font-size: 2rem;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* HERO - HEADER - NAVIGATION */
+.hero-navigation {
+  display: flex;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--light)
+}
+
+.hero-navigation-icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.hero-navigation:hover {
+  color: var(--dark);
+  cursor: pointer;
 }
