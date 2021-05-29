@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 /* Challenge Two */
 
 /* FONTS */
@@ -19,8 +20,8 @@
   font-style: normal;
 }
 
-/* COLORS */
 :root {
+  /* COLORS */
   --brand-primary: #734061;
   --brand-secondary: #edb554;
 
@@ -32,7 +33,14 @@
 
   --black: #000000;
   --white: #ffffff;
+  
+  /* FONTS */
+  --roboto-slab: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  --sacramento-regular: 'Sacramento Regular', cursive;
+  --sans-source-pro: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  --playfair-display: 'Playfair Display', 'Times New Roman', Times, serif;
 }
+
 
 /* HEADER */
 .header {
@@ -46,7 +54,7 @@
 
 /* HEADER - LOGO */
 .logo {
-  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-family: var(--roboto-slab);
   font-weight: 300;
   font-size: 2rem;
   margin: 0 1rem;
@@ -62,7 +70,7 @@
 }
 
 .logo span {
-  font-family: 'Sacramento Regular', cursive;
+  font-family: var(--sacramento-regular);
   font-size: 2.75rem;
   margin: 0 0.2rem;
   color: var(--light);
@@ -96,7 +104,7 @@
 }
 
 .navigation a {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--source-sans-pro);
   font-weight: bolder;
   font-size: 1rem;
   text-transform: uppercase;
@@ -138,7 +146,7 @@
 
 /* HERO - HEADER - TITLE */
 .hero-title {
-  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-family: var(--roboto-slab);
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -156,20 +164,74 @@
 .hero-navigation {
   display: flex;
   align-items: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--source-sans-pro);
   letter-spacing: 0.2rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   color: var(--light)
 }
 
 .hero-navigation-icon {
-  height: 1.2rem;
-  width: 1.2rem;
+  height: 1rem;
+  width: 1rem;
   margin-left: 0.5rem;
 }
 
 .hero-navigation:hover {
   color: var(--dark);
   cursor: pointer;
+}
+
+/* HERO CARDS */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* HERO CARD */
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hero-card-image {
+  height: 550px;
+  width: 415px;
+  overflow:hidden;
+  
+}
+
+.hero-card-image img {
+  width: 100%;
+	height: auto;
+  transition: transform .2s;
+}
+
+.hero-card-image img:hover {
+  transform: scale(1.2);
+}
+
+.hero-card-highlight {
+  margin: 0;
+  position: absolute;
+  top: 535px;
+  font-family: var(--roboto-slab);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--brand-secondary);
+  color: var(--white);
+}
+
+.hero-card-title {
+  font-family: var(--playfair-display);
+  font-size: 1.7rem;
+  /* font-weight: bold; */
+  width: 270px;
+  text-align: center;
 }
