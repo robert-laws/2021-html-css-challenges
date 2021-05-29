@@ -212,7 +212,7 @@
 }
 
 .hero-card-image img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .hero-card-highlight {
