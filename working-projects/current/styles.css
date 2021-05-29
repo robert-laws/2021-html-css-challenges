@@ -17,13 +17,110 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
+/* COLORS */
+:root {
+  --brand-primary: #734061;
+  --brand-secondary: #edb554;
+
+  --darkest: #171a16;
+  --dark: #4d4d4d;
+
+  --light: #979797;
+  --lightest: #e6e6e6;
+
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/* HEADER */
+header {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
 .logo {
   font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
-  font-weight: 200;
-  font-size: 1.4rem;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: color: var(--brand-primary);
+}
+
+.logo a:link, .logo a:visited, .logo a:hover, .logo a:active {
+  color: var(--brand-primary);
 }
 
 .logo span {
   font-family: 'Sacramento Regular', cursive;
-  font-size: 2.2rem;
+  font-size: 2.75rem;
+  margin: 0 0.2rem;
+  color: var(--light);
+}
+
+/* NAVIGATION */
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation li {
+  margin: 0 0.8rem;
+  border-bottom: 3px solid var(--white);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation li:hover {
+  border-bottom: 3px solid var(--brand-primary);
+}
+
+.navigation a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.navigation a:link,
+.navigation a:visited {
+  color: var(--black);
+}
+
+.navigation a:hover,
+.navigation a:active {
+  color: var(--brand-primary);
+}
+
+.search-icon {
+  height: 1.4rem;
+  width: 1.4rem;
+  margin: 0 1rem 0 0.5rem;
+  color: var(--brand-primary);
+}
+
+.search-icon:hover {
+  color: var(--black);
 }
