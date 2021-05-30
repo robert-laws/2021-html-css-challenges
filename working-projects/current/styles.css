@@ -235,3 +235,75 @@
   width: 270px;
   text-align: center;
 }
+
+/* SEARCH AND ICONS */
+.search-and-icons-container {
+  background-color: var(--brand-primary);
+  height: 140px;
+  display: flex;
+  align-items: center;
+}
+
+.search-and-icons {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* INPUT */
+.search-input-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  font-family: var(--roboto-slab);
+  width: 100%;
+  height: 2rem;
+  border: none;
+  padding: 0.5rem 2.4rem;
+  border-radius: 0;
+  box-shadow: inset 0 4px 1px var(--lightest)
+}
+
+.search-input::placeholder {
+  color: var(--light);
+}
+
+.input-search-icon {
+  position: absolute;
+}
+
+/* ICON LIST */
+.icon-list {
+  flex: 1;
+  width: 100%;
+  margin: 0 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+/* ICON */
+.single-icon-group {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-icon {
+  font-size: 3rem;
+  color: var(--white)
+}
+
+.icon-text {
+  font-family: var(--sans-source-pro);
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--white)
+}
