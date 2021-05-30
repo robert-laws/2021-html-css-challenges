@@ -37,6 +37,7 @@
   /* FONTS */
   --roboto-slab: 'Roboto Slab', Helvetica, Arial, sans-serif;
   --sacramento-regular: 'Sacramento Regular', cursive;
+  --allura: 'Allura', cursive;
   --sans-source-pro: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   --playfair-display: 'Playfair Display', 'Times New Roman', Times, serif;
 }
@@ -154,7 +155,7 @@
 }
 
 .hero-title span {
-  font-family: 'Allura', cursive;
+  font-family: var(--allura)
   font-size: 2rem;
   text-transform: none;
   letter-spacing: normal;
@@ -306,4 +307,116 @@
   font-size: 0.85rem;
   text-transform: uppercase;
   color: var(--white)
+}
+
+/* DIV - BIO */
+.bio {
+
+}
+
+/* BRANDS */
+.brands {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* BRANDS HEADER */
+.brands-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--brand-secondary);
+  font-family: var(--sans-source-pro);
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+/* BRAND ICON */
+.brand-icons {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.brand-icon {
+  font-size: 5rem;
+  color: var(--lightest)
+}
+
+
+/* BIO ITEMS */
+.bio-items {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* BIO TEXT */
+.bio-text {
+  height: 550px;
+  width: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-text-introduction {
+  font-family: var(--roboto-slab);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.bio-text-salutation {
+  font-family: var(--allura);
+  font-size: 2.4rem;
+  line-height: 1.4rem;
+}
+
+.bio-text-body {
+  font-family: var(--roboto-slab);
+  font-size: 0.8rem;
+  text-align: center;
+  width: 46%;
+  line-height: 2rem;
+  color: var(--light);
+  margin: 1.2rem 0;
+}
+
+/* BIO IMAGE */
+.bio-image {
+  height: 550px;
+  width: 415px;
+  overflow:hidden;
+  
+}
+
+.bio-image img {
+  width: 100%;
+	height: auto;
+}
+
+/* BUTTON */
+.brand-button {
+  background-color: var(--brand-primary);
+  color: var(--white);
+  border: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 0.75rem;
+  font-family: var(--sans-source-pro);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.brand-button:hover {
+  color: var(--lightest)
 }
