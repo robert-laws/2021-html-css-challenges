@@ -420,3 +420,53 @@
 .brand-button:hover {
   color: var(--lightest)
 }
+
+/* SOCIAL AND NEWSLETTER */
+
+
+
+/* SOCIAL ICONS */
+.social-icons-list-title {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons-list-title .icon-list {
+  margin: 0 0.5rem;
+}
+
+/* TITLE */
+.social-icons-title {
+  font-family: var(--roboto-slab);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.075rem;
+}
+
+/* SOCIAL ICONS */
+.single-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 0 0.4rem;
+  font-size: 1.6rem;
+  color: var(--light);
+  background-color: var(--white);
+  border-radius: 100%;
+}
+
+/* NEWSLETTER */
+
+/* NEWSLETTER TITLE */
+.newsletter-title {
+  
+}
+
+/* NEWSLETTER FORM */
+
+/* NEWSLETTER INPUT */
+
+/* NEWSLETTER BUTTON */
