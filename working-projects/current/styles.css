@@ -395,7 +395,6 @@
   height: 550px;
   width: 415px;
   overflow:hidden;
-  
 }
 
 .bio-image img {
@@ -422,13 +421,19 @@
 }
 
 /* SOCIAL AND NEWSLETTER */
-
-
+.social-icons-and-newsletter {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* SOCIAL ICONS */
 .social-icons-list-title {
   display: flex;
   align-items: center;
+  flex: 1;
 }
 
 .social-icons-list-title .icon-list {
@@ -459,14 +464,44 @@
 }
 
 /* NEWSLETTER */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;  
+}
 
 /* NEWSLETTER TITLE */
 .newsletter-title {
-  
+  font-family: var(--roboto-slab);
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.newsletter-title span {
+  font-family: var(--allura);
+  font-size: 2.2rem;
+  text-transform: none;
 }
 
 /* NEWSLETTER FORM */
+.newsletter-form {
+  display: flex;
+  width: 100%;
+}
 
 /* NEWSLETTER INPUT */
+.search-input-newsletter {
+  padding: 0.4rem 1rem;
+  margin-right: 0.3rem;
+}
 
 /* NEWSLETTER BUTTON */
+.newsletter-button {
+  background-color: var(--brand-secondary);
+  letter-spacing: -0.025rem;
+  font-size: 1.4rem;
+  padding: 0.6rem 1.2rem;
+}
