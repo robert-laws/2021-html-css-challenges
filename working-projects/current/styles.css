@@ -23,6 +23,7 @@
 :root {
   /* COLORS */
   --brand-primary: #734061;
+  --brand-primary-rgb: 115, 64, 97;
   --brand-secondary: #edb554;
 
   --darkest: #171a16;
@@ -504,4 +505,197 @@
   letter-spacing: -0.025rem;
   font-size: 1.4rem;
   padding: 0.6rem 1.2rem;
+}
+
+/* MAIN - BLOG POSTS AND ASIDE */
+.blog-post-and-aside {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.blog-post-and-aside-content {
+  width: 100%;
+  display: flex;
+}
+
+/* BLOG POSTS */
+
+/* BLOG POSTS TITLE */
+.blog-posts-title {
+  font-family: var(--roboto-slab);
+  text-transform: uppercase;
+  color: var(--brand-primary);
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+}
+
+/* BLOG POSTS LIST */
+
+/* BLOG POST */
+.blog-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.blog-post-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  flex: 0 240px;
+}
+
+.blog-post-content {
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.blog-post-date {
+  font-family: var(--roboto-slab);
+  color: var(--light);
+  font-size: 0.7rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.blog-post-title {
+  font-family: var(--playfair-display);
+  font-size: 1.9rem;
+  margin: 1rem 0;
+}
+
+.blog-post-text {
+  font-family: var(--roboto-slab);
+}
+
+.blog-post-link {
+  font-family: var(--sans-source-pro);
+  text-decoration: none;
+  color: var(--brand-secondary);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.95rem;
+  letter-spacing: 0.1rem;
+}
+
+.blog-post-link:link,
+.blog-post-link:visited {
+  color: var(--brand-secondary);
+}
+
+.blog-post-link:hover,
+.blog-post-link:active {
+  color: var(--dark);
+}
+
+/* ASIDE */
+.aside {
+  width: 360px;
+}
+
+/* ASIDE GRAPHIC */
+
+/* ASIDE GRAPHIC OVERLAY */
+.aside-graphic-overlay {
+  width: 100%;
+  height: 140px;
+  width: 349px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(var(--brand-primary-rgb), 0.9);
+  color: var(--white);
+  margin: 0 -0.9rem;
+  position: absolute;
+  top: 184px;
+  left: 1.2rem;
+}
+
+.aside-graphic-overlay-title-top {
+  font-family: var(--allura);
+  font-size: 2.5rem;
+}
+
+.aside-graphic-overlay-title-bottom {
+  font-family: var(--roboto-slab);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/* ASIDE GRAPHIC GRID */
+.aside-graphic-grid {
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* ASIDE GRAPHIC IMAGE */
+.aside-graphic {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  margin: 0.3rem;
+}
+
+/* ASIDE LIST TITLE */
+.aside-list-title {
+  background-color: var(--lightest);
+  padding: 0.7rem 1rem;
+  margin: 0 0 0.2rem;
+  color: var(--brand-primary);
+  font-family: var(--roboto-slab);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/* ASIDE LIST */
+
+/* ASIDE LIST ENTRIES */
+.aside-list {
+  padding: 1.3rem 0.3rem 0;
+}
+
+/* ASIDE LIST ENTRIES ITEM */
+.aside-list-entries-item {
+  background-color: var(--lightest);
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.aside-list-entries-item-number {
+  background-color: var(--brand-primary);
+  color: var(--white);
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  border-radius: 100%;
+  line-height: 0.4rem;
+  margin-right: 0.3rem;
+}
+
+.aside-list-entries-item-title {
+  font-family: var(--roboto-slab);
+  font-size: 0.9rem;
+  color: var(--darkest);
+}
+
+.aside-list-entries-item-count {
+  font-family: var(--roboto-slab);
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+/* MAIN - BLOG POSTS AND ASIDE - FOOTER */
+.blog-posts-and-aside-footer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem;
 }
