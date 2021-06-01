@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Two - Basket of Eggs</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/62f75ff9d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="header">
+        <h1 class="logo">
+          <a href="/">basket <span>of</span> eggs</a>
+        </h1>
+        <nav class="navigation">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Egg Combos</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="search-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </nav>
+      </header>
+    </div>
+    <section class="hero">
+      <header class="hero-header">
+        <h4 class="hero-title">Great Egg Combo <span>recipes</span></h4>
+        <nav class="hero-navigation">
+          <p>All the News from the Blog</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="hero-navigation-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </nav>
+      </header>
+      <div class="cards">
+        <div class="hero-card">
+          <div class="hero-card-image">
+            <img src="images/hero-1.jpg" alt="Plate on table with eggs" />
+          </div>
+          <p class="hero-card-highlight">Breakfast</p>
+          <p class="hero-card-title">Early Morning Eggs to Start the Day</p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-image">
+            <img src="images/hero-2.jpg" alt="Plate on table with eggs" />
+          </div>
+          <p class="hero-card-highlight">Gourmet</p>
+          <p class="hero-card-title">Delightful Egg Medley with a Big Smile</p>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-image">
+            <img src="images/hero-3.jpg" alt="Plate on table with eggs" />
+          </div>
+          <p class="hero-card-highlight">Country</p>
+          <p class="hero-card-title">Happy Egg Plate for any Time of the Day</p>
+        </div>
+      </div>
+    </section>
+    <div class="search-and-icons-container">
+      <div class="search-and-icons">
+        <div class="search-input-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="search-icon input-search-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Search our recipes"
+          />
+        </div>
+
+        <div class="icon-list">
+          <div class="single-icon-group">
+            <span class="single-icon"><i class="fas fa-globe"></i></span>
+            <span class="icon-text">Popular</span>
+          </div>
+          <div class="single-icon-group">
+            <span class="single-icon"><i class="fas fa-coffee"></i></span>
+            <span class="icon-text">Wake Up</span>
+          </div>
+          <div class="single-icon-group">
+            <span class="single-icon"><i class="fas fa-bread-slice"></i></span>
+            <span class="icon-text">Breakfast</span>
+          </div>
+          <div class="single-icon-group">
+            <span class="single-icon"><i class="fas fa-blender"></i></span>
+            <span class="icon-text">Blends</span>
+          </div>
+          <div class="single-icon-group">
+            <span class="single-icon"><i class="fas fa-book"></i></span>
+            <span class="icon-text">Cookbooks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bio">
+      <div class="brands">
+        <header class="brands-header"><span>As Seen In</span></header>
+        <div class="brand-icons">
+          <span class="brand-icon">
+            <i class="fab fa-airbnb"></i>
+          </span>
+          <span class="brand-icon">
+            <i class="fab fa-cloudflare"></i>
+          </span>
+          <span class="brand-icon">
+            <i class="fab fa-ember"></i>
+          </span>
+          <span class="brand-icon">
+            <i class="fab fa-free-code-camp"></i>
+          </span>
+          <span class="brand-icon">
+            <i class="fab fa-aws"></i>
+          </span>
+        </div>
+      </div>
+      <div class="bio-items">
+        <div class="bio-text">
+          <span class="bio-text-introduction"> Howdy! I'm Bobby </span>
+          <span class="bio-text-salutation">great to know you!</span>
+          <p class="bio-text-body">
+            I'm learning about the fun and exciting world of egg creations.
+            Cooking with eggs opens a world of possibilities. In my free time, I
+            enjoy beaches and wind surfing.
+          </p>
+          <button type="button" class="brand-button">Learn More</button>
+        </div>
+        <div class="bio-image">
+          <img src="images/bio-image-1.jpg" alt="Bio Image with Eggs" />
+        </div>
+        <div class="bio-image">
+          <img src="images/bio-image-2.jpg" alt="Bio Image with Eggs" />
+        </div>
+      </div>
+    </div>
+    <div class="dark-container">
+      <div class="social-icons-and-newsletter">
+        <div class="social-icons-list-title">
+          <h4 class="social-icons-title">Follow Us</h4>
+          <div class="icon-list">
+            <span class="single-social-icon"
+              ><i class="fab fa-instagram"></i
+            ></span>
+            <span class="single-social-icon"
+              ><i class="fab fa-pinterest-p"></i
+            ></span>
+            <span class="single-social-icon"
+              ><i class="fab fa-facebook-f"></i
+            ></span>
+            <span class="single-social-icon"
+              ><i class="fab fa-twitter"></i
+            ></span>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h3 class="newsletter-title">
+            <span>Sign up</span> for Email Updates
+          </h3>
+          <div class="newsletter-form">
+            <input
+              class="search-input search-input-newsletter"
+              type="text"
+              placeholder="First Name"
+            />
+            <input
+              class="search-input search-input-newsletter"
+              type="text"
+              placeholder="Email"
+            />
+            <button class="brand-button newsletter-button">Go</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="blog-post-and-aside">
+      <h4 class="blog-posts-title">The Latest & Greatest</h4>
+      <div class="blog-post-and-aside-content">
+        <main class="blog-posts">
+          <section class="blog-posts-list">
+            <article class="blog-post">
+              <img
+                src="images/blog-post-1.jpg"
+                alt="Blog Post"
+                class="blog-post-image"
+              />
+              <div class="blog-post-content">
+                <time datetime="2021-05-20" class="blog-post-date"
+                  >May 20, 2021</time
+                >
+                <h4 class="blog-post-title">
+                  Poached Egg on Avocado Toast with Seasoning
+                </h4>
+                <p class="blog-post-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                  numquam. Et odit voluptates ab laborum possimus totam nostrum
+                  officiis quibusdam illum architecto.
+                </p>
+                <a class="blog-post-link" href="/">Continue Reading</a>
+              </div>
+            </article>
+            <article class="blog-post">
+              <img
+                src="images/blog-post-2.jpg"
+                alt="Blog Post"
+                class="blog-post-image"
+              />
+              <div class="blog-post-content">
+                <time datetime="2021-05-13" class="blog-post-date"
+                  >May 13, 2021</time
+                >
+                <h4 class="blog-post-title">
+                  Continental Style Breakfast with Eggs and Toast
+                </h4>
+                <p class="blog-post-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                  modi sapiente? Tempore deserunt blanditiis exercitationem
+                  optio tempora ducimus dolorum voluptas fuga.
+                </p>
+                <a class="blog-post-link" href="/">Continue Reading</a>
+              </div>
+            </article>
+            <article class="blog-post">
+              <img
+                src="images/blog-post-3.jpg"
+                alt="Blog Post"
+                class="blog-post-image"
+              />
+              <div class="blog-post-content">
+                <time datetime="2021-05-03" class="blog-post-date"
+                  >May 3, 2021</time
+                >
+                <h4 class="blog-post-title">
+                  Classic Basket of Eggs for Hard Boiled Creations
+                </h4>
+                <p class="blog-post-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                  exercitationem soluta eligendi, repellat dolorem quibusdam
+                  iusto quos maxime dolor necessitatibus neque nobis.
+                </p>
+                <a class="blog-post-link" href="/">Continue Reading</a>
+              </div>
+            </article>
+          </section>
+        </main>
+        <div class="aside">
+          <div class="aside-graphic-grid">
+            <div class="aside-graphic-grid">
+              <img
+                class="aside-graphic"
+                src="images/aside-graphic-1.jpg"
+                alt="Aside Graphic"
+              />
+              <img
+                class="aside-graphic"
+                src="images/aside-graphic-2.jpg"
+                alt="Aside Graphic"
+              />
+              <img
+                class="aside-graphic"
+                src="images/aside-graphic-3.jpg"
+                alt="Aside Graphic"
+              />
+              <img
+                class="aside-graphic"
+                src="images/aside-graphic-4.jpg"
+                alt="Aside Graphic"
+              />
+              <img
+                class="aside-graphic"
+                src="images/aside-graphic-5.jpg"
+                alt="Aside Graphic"
+              />
+              <img
+                class="aside-graphic"
+                src="images/aside-graphic-6.jpg"
+                alt="Aside Graphic"
+              />
+            </div>
+            <div class="aside-graphic-overlay">
+              <span class="aside-graphic-overlay-title-top">20 Fancy</span>
+              <span class="aside-graphic-overlay-title-bottom"
+                >Egg Baskets</span
+              >
+            </div>
+          </div>
+          <div class="aside-list">
+            <h4 class="aside-list-title">Great Egg Ideas</h4>
+            <div class="aside-list-entries">
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">1</span>
+                  <span class="aside-list-entries-item-title"
+                    >Birthday Egg Baskets</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">42</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">2</span>
+                  <span class="aside-list-entries-item-title"
+                    >Holiday Baskets</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">156</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">3</span>
+                  <span class="aside-list-entries-item-title"
+                    >Gift Basket with Egggs</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">74</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">4</span>
+                  <span class="aside-list-entries-item-title"
+                    >Breakfast Basket</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">218</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">5</span>
+                  <span class="aside-list-entries-item-title">Kids Treats</span>
+                </div>
+                <div class="aside-list-entries-item-count">158</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">6</span>
+                  <span class="aside-list-entries-item-title"
+                    >Chocolate Baskets</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">182</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">7</span>
+                  <span class="aside-list-entries-item-title"
+                    >Early Rise Basket</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">96</div>
+              </div>
+              <div class="aside-list-entries-item">
+                <div class="aside-list-entries-item-content">
+                  <span class="aside-list-entries-item-number">8</span>
+                  <span class="aside-list-entries-item-title"
+                    >Basket Gallery</span
+                  >
+                </div>
+                <div class="aside-list-entries-item-count">37</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blog-posts-and-aside-footer">
+        <nav class="hero-navigation">
+          <p>More from the Blog</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="hero-navigation-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </nav>
+      </div>
+    </section>
+    <div class="tabs-and-small-images-container">
+      <section class="tabs-and-small-images">
+        <div class="topic-tabs">
+          <div class="topic-tab">
+            <span>Vegetarian</span><span class="tab-triangle"></span>
+          </div>
+          <div class="topic-tab">
+            <span>Quick + Easy</span><span class="tab-triangle"></span>
+          </div>
+          <div class="topic-tab">
+            <span>Popular on Pinterest</span><span class="tab-triangle"></span>
+          </div>
+        </div>
+        <div class="small-images">
+          <div class="hero-card">
+            <div class="hero-card-image-small">
+              <img
+                src="images/section-small-1.jpg"
+                alt="Plate on table with eggs"
+              />
+            </div>
+            <p class="hero-card-highlight-small">Quick and Easy</p>
+            <p class="hero-card-title-small">
+              Tasty Eggs with a Selection of Sides
+            </p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-image-small">
+              <img
+                src="images/section-small-2.jpg"
+                alt="Plate on table with eggs"
+              />
+            </div>
+            <p class="hero-card-highlight-small">Toast & More</p>
+            <p class="hero-card-title-small">Morning Favorites on Toast</p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-image-small">
+              <img
+                src="images/section-small-3.jpg"
+                alt="Plate on table with eggs"
+              />
+            </div>
+            <p class="hero-card-highlight-small">Fruity Flavors</p>
+            <p class="hero-card-title-small">
+              Eggs on Toast with some Blueberries
+            </p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-image-small">
+              <img
+                src="images/section-small-4.jpg"
+                alt="Plate on table with eggs"
+              />
+            </div>
+            <p class="hero-card-highlight-small">Classic Choice</p>
+            <p class="hero-card-title-small">
+              Classic Country Breakfast Combination
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="dark-container">
+      <section class="newsletter-with-graphic">
+        <div class="newsletter-graphic-frame">
+          <div class="newsletter-graphic-overlay">
+            <span class="newsletter-graphic-overlay-text">Top 10 Baskets</span>
+          </div>
+          <div class="newsletter-graphic-grid">
+            <img
+              class="newsletter-graphic"
+              src="images/aside-graphic-3.jpg"
+              alt="Newsletter Graphic"
+            />
+            <img
+              class="newsletter-graphic"
+              src="images/aside-graphic-2.jpg"
+              alt="Newsletter Graphic"
+            />
+            <img
+              class="newsletter-graphic"
+              src="images/aside-graphic-1.jpg"
+              alt="Newsletter Graphic"
+            />
+            <img
+              class="newsletter-graphic"
+              src="images/aside-graphic-4.jpg"
+              alt="Newsletter Graphic"
+            />
+            <img
+              class="newsletter-graphic"
+              src="images/aside-graphic-6.jpg"
+              alt="Newsletter Graphic"
+            />
+            <img
+              class="newsletter-graphic"
+              src="images/aside-graphic-5.jpg"
+              alt="Newsletter Graphic"
+            />
+          </div>
+          <span class="graphic-frame-circle"></span>
+        </div>
+        <div class="newsletter-condensed">
+          <h4 class="newsletter-subtitle">Get the List</h4>
+          <h3 class="newsletter-title">Learn all the options</h3>
+          <p class="newsletter-text">
+            There’s many different basket options just waiting to be discovered.
+            Sign up for the list of great basket options today.
+          </p>
+          <div class="newsletter-form">
+            <input
+              class="search-input search-input-newsletter"
+              type="text"
+              placeholder="First Name"
+            />
+            <input
+              class="search-input search-input-newsletter"
+              type="text"
+              placeholder="Email"
+            />
+            <button class="brand-button newsletter-button">Go</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-resources">
+          <div class="footer-resources-lists">
+            <div class="footer-resource-list-container">
+              <h5 class="footer-resource-title">Basket of Eggs</h5>
+              <ul class="footer-resource-list">
+                <li><a href="/">About</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Option List</a></li>
+                <li><a href="/">Site Index</a></li>
+                <li><a href="/">Annual Report</a></li>
+                <li><a href="/">Reading List</a></li>
+                <li><a href="/">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="footer-resource-list-container">
+              <h5 class="footer-resource-title">List of Options</h5>
+              <ul class="footer-resource-list">
+                <li><a href="/">Top 10 Baskets</a></li>
+                <li><a href="/">Holiday Specials</a></li>
+                <li><a href="/">Email Sample</a></li>
+                <li><a href="/">Site Index</a></li>
+                <li><a href="/">News & Events</a></li>
+                <li><a href="/">Terms of Use</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-resource-icons">
+            <div class="icon-list">
+              <span class="single-social-icon"
+                ><i class="fab fa-instagram"></i
+              ></span>
+              <span class="single-social-icon"
+                ><i class="fab fa-pinterest-p"></i
+              ></span>
+              <span class="single-social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></span>
+              <span class="single-social-icon"
+                ><i class="fab fa-twitter"></i
+              ></span>
+            </div>
+          </div>
+          <div class="footer-resource-logo">
+            <h1 class="logo">
+              <a href="/">basket <span>of</span> eggs</a>
+            </h1>
+          </div>
+        </div>
+        <div class="footer-newsletter-container">
+          <div class="footer-newsletter">
+            <h3 class="newsletter-title">
+              <span>Sign up</span> for Email Updates
+            </h3>
+            <div class="newsletter-form">
+              <input
+                class="search-input search-input-newsletter"
+                type="text"
+                placeholder="First Name"
+              />
+              <input
+                class="search-input search-input-newsletter"
+                type="text"
+                placeholder="Email"
+              />
+              <button class="brand-button newsletter-button">Go</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-disclaimer">
+        <p>© 2021 basket of eggs. All rights reserved.</p>
+        <p><span>Privacy Policy</span><span>Terms</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
