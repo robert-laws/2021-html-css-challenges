@@ -34,6 +34,7 @@
 
   --black: #000000;
   --white: #ffffff;
+  --white-rgb: 255, 255, 255;
   
   /* FONTS */
   --roboto-slab: 'Roboto Slab', Helvetica, Arial, sans-serif;
@@ -478,12 +479,30 @@
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+  margin: 0.2rem;
 }
 
 .newsletter-title span {
   font-family: var(--allura);
   font-size: 2.2rem;
   text-transform: none;
+}
+
+.newsletter-subtitle {
+  font-family: var(--allura);
+  font-size: 2.2rem;
+  color: var(--brand-secondary);
+  margin: 0;
+}
+
+/* NEWSLETTER TEXT */
+.newsletter-text {
+  font-family: var(--roboto-slab);
+  font-weight: 100;
+  text-align: center;
+  color: var(--white);
+  width: 75%;
+  margin: 0.5rem 0 1rem;
 }
 
 /* NEWSLETTER FORM */
@@ -789,4 +808,80 @@
   /* font-weight: bold; */
   width: 250px;
   text-align: center;
+}
+
+/* DIV - NEWSLETTER */
+.newsletter-with-graphic {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.newsletter-condensed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 0 450px;  
+}
+
+/* NEWSLETTER GRAPHIC GRID */
+.newsletter-graphic-grid {
+  width: 330px;
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+
+/* NEWSLETTER GRAPHIC IMAGE */
+.newsletter-graphic {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+}
+
+/* NEWSLETTER GRAPHIC FRAME */
+.newsletter-graphic-frame {
+  width: 330px;
+  height: 220px;
+  background-color: var(--white);
+  border: 1.2rem solid var(--white);
+  border-radius: 0.75rem;
+  position: relative;
+  flex: 0 330px;
+}
+
+.graphic-frame-circle {
+  display: inline-block;
+  background-color: var(--dark);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  right: -1.2rem;
+  transform: translate(-50%, -50%);
+}
+
+/* NEWSLETTER GRAPHIC OVERLAY */
+.newsletter-graphic-overlay {
+  width: 330px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(var(--white-rgb), 0.9);
+  position: absolute;
+  top: 70px;
+  /* right: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.newsletter-graphic-overlay-text {
+  color: var(--darkest);
+  font-family: var(--sans-source-pro);
+  font-size: 1.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
