@@ -672,6 +672,10 @@
   font-size: 2rem;
 }
 
+.aside-graphic-grid-container {
+  position: relative;
+}
+
 /* ASIDE GRAPHIC GRID */
 .aside-graphic-grid {
   width: 360px;
