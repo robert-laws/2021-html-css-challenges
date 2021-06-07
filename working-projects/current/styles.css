@@ -40,12 +40,12 @@ img {
 /* GRID */
 .container {
   display: grid;
-  grid-template-columns: 1fr min(80ch, calc(100% - 48px)) 1fr;
+  grid-template-columns: 1fr min(124ch, calc(100% - 48px)) 1fr;
   grid-template-rows: 70px auto;
   gap: 16px 24px;
 }
 
-.container > figure,
+.container > main,
 .container > section {
   grid-column: 2;
 }
@@ -90,6 +90,11 @@ a.hero-text {
 
 .container .wide-image {
   height: 180px;
+}
+
+main {
+  display: grid;
+  gap: 16px 0;
 }
 
 .center-image {
@@ -159,19 +164,98 @@ a.hero-text {
 
 footer {
   grid-column: 1 / 4;
-  padding: 0 32px;
+  padding: 2rem 32px 1rem;
   color: white;
   background-color: #000;
 }
 
-footer > div {
-  margin: 1rem 0;
+footer .logo {
+  margin-bottom: 2rem;
 }
 
 footer > div:last-of-type {
   margin-bottom: 3rem;
 }
 
+footer p {
+  padding-bottom: 1rem;
+}
+
 footer .logo {
   text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 470px 380px;
+    gap: 16px;
+  }
+
+  .third-span {
+    grid-column: span 2;
+  }
+
+  .half-span {
+    grid-column: span 3;
+  }
+
+  .wide-span {
+    grid-column: 1 / 7;
+  }
+
+  .container .tall-image {
+    height: 470px;
+  }
+
+  .container .half-span .tall-image {
+    height: 720px;
+  }
+
+  .container .wide-image {
+    height: 380px;
+  }
+
+  .subscribe {
+    display: grid;
+    grid-template-columns: 10rem repeat(3, 1fr) 10rem;
+    padding: 1.5rem 0;
+    text-align: left;
+    align-content: center;
+  }
+
+  .subscribe h4 {
+    grid-column: 2 / 3;
+    width: 100%;
+    margin-bottom: 0;
+    place-self: center;
+  }
+
+  .subscribe input {
+    grid-column: 3 / 4;
+    width: 98%;
+  }
+
+  .subscribe button {
+    grid-column: 4 / 5;
+    width: 100%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 45ch repeat(3, 25ch) 1fr;
+    justify-items: start;
+    column-gap: 10px;
+  }
+
+  footer .logo {
+    grid-column: 2 / 3;
+  }
+
+  footer > div:not(:first-of-type) {
+    margin-top: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
 }
