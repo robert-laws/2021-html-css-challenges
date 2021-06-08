@@ -264,6 +264,31 @@ footer .logo {
     height: 380px;
   }
 
+  .center-image img {
+    transition: all 0.2s ease-out;
+  }
+
+  .center-image:hover img {
+    filter: brightness(0.35);
+  }
+
+  .center-image figcaption {
+    opacity: 0;
+    background-color: transparent;
+    transition: all 0.2s ease-out;
+  }
+
+  .center-image:hover figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 1.3rem 3rem;
+    background-color: transparent;
+    color: white;
+    opacity: 0.7;
+  }
+
   .subscribe {
     display: grid;
     grid-template-columns: 10rem repeat(3, 1fr) 10rem;
