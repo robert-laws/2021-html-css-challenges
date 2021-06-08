@@ -78,10 +78,11 @@ header .menu span {
 header .logo {
   margin-top: 1rem;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header .logo h4 {
-  margin-top: -8px;
+  margin-top: -7px;
   font-size: 0.8rem;
   letter-spacing: 1.25px;
 }
@@ -162,6 +163,13 @@ nav > * {
   grid-row: 3 / 4;
   place-self: center;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-button {
+  grid-column: 2;
+  grid-row: 3 / 4;
+  visibility: hidden;
 }
 
 a.hero-text {
@@ -261,21 +269,92 @@ footer {
 
 footer .logo {
   margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6rem;
+}
+
+footer .logo h4 {
+  margin-top: -7px;
+  font-size: 1rem;
+  letter-spacing: 1.25px;
 }
 
 footer > div:last-of-type {
   margin-bottom: 3rem;
 }
 
+footer > div:not(:first-of-type) {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-categories,
+.footer-sections,
+.footer-follow,
+.footer-payments {
+  border-bottom: 1px solid #fff;
+}
+
+.footer-follow {
+  margin-bottom: 1rem;
+}
+
+.footer-payments {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.footer-copyright {
+  margin-top: 4rem;
+}
+
+footer ul {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-weight: 300;
+}
+
+footer ul li {
+  font-size: 0.8rem;
+  margin: 1.25rem 0;
+}
+
 footer p {
   padding-bottom: 1rem;
 }
 
-footer .logo {
-  text-align: center;
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
-@media screen and (min-width: 600px) {
+footer a:link {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #555;
+}
+
+footer .icons {
+  margin-bottom: 2rem;
+}
+
+footer .icons a {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 1rem;
+}
+
+footer .credit-cards a {
+  font-size: 1.5rem;
+  color: white;
+  margin-right: 0.2rem;
+}
+
+@media screen and (min-width: 1000px) {
   .container {
     grid-template-rows: 70px 35px auto;
   }
@@ -326,6 +405,24 @@ footer .logo {
   a.hero-text {
     font-size: 7rem;
     letter-spacing: 4px;
+  }
+
+  .hero-button {
+    grid-column: 2;
+    grid-row: 3 / 4;
+    place-self: end center;
+    color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+    visibility: visible;
   }
 
   main {
@@ -424,5 +521,37 @@ footer .logo {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 0.8rem;
+  }
+
+  footer ul {
+    display: block;
+    margin-top: -0.4rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+
+  footer ul li {
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+  }
+
+  .footer-categories,
+  .footer-sections,
+  .footer-follow,
+  .footer-payments {
+    border-bottom: none;
+  }
+
+  .footer-payments {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  .footer-follow {
+    margin-bottom: 0;
+  }
+
+  .footer-copyright {
+    margin-top: 1rem;
   }
 }
