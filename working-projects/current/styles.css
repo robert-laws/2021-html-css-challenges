@@ -258,10 +258,12 @@ main a {
 
 .subscribe input {
   padding: 0 15px;
+  outline: none;
 }
 
 .subscribe button {
   opacity: 0.83;
+  cursor: pointer;
 }
 
 footer {
