@@ -26,6 +26,16 @@ The challenge, like [previous](https://robert-laws.com/blog/challenge-one) [chal
 
 ## Finding a Good Design
 
-The inspirational website for this challenge was a perfect website for making use of CSS Grid.
+The inspirational website for this challenge was a perfect candidate for the use of CSS Grid. Two key features of this website made it a good candidate. First, the design employs a full bleed header, hero section, and footer. And second, the main content area is a series of images contained within a fixed column and laid out in a grid pattern. Traditionally, a layout like this would be somewhat tricky to implement without using a lot of div containers and extensive CSS, especially considering the need to create both a design for mobile and larger screen sizes.
 
 <!-- Screenshot of the inspirational website -->
+
+## Working through the Design
+
+One of the initial steps I take with these challenges is to explore and take apart the design using a UX design tool, Adobe XD in my case. This is an important part of the process to help identify typography, color palette, icon usage, layout patterns, spacing, and components that will be translated in HTML and CSS. I also use the design phase to build a design based on the inspirational website, but with different branding, images, and content. Doing this allows me to retain the important layout and design aspects of the website - which I want to recreate - while using different content so as to not just copy the inspirational website's content.
+
+The result of this process concluded with the production of two finished prototype screens - mobile and desktop - which I would use as the basis for building each with HTML and CSS in the Development phase.
+
+<!-- Image of Combined Design Layout -->
+
+Part of the value of the design process is in planning how to structure the layout and grids that will eventually be created with the HTML and CSS. This design has two major grids - a site grid that would layout the entire page contents and a nested grid for the main content, which mostly included a mosaic of images.
