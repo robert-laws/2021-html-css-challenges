@@ -34,6 +34,10 @@ The inspirational website for this challenge was a perfect candidate for the use
 
 One of the initial steps I take with these challenges is to explore and take apart the design using a UX design tool, Adobe XD in my case. This is an important part of the process to help identify typography, color palette, icon usage, layout patterns, spacing, and components that will be translated in HTML and CSS. I also use the design phase to build a design based on the inspirational website, but with different branding, images, and content. Doing this allows me to retain the important layout and design aspects of the website - which I want to recreate - while using different content so as to not just copy the inspirational website's content.
 
+The first step in the design process to prepare it for working with CSS Grid was to identify the different and distinct sections of the website. For this challenge, there are only five distinct sections that jumped out in the analysis - the header, navigation, hero, main content, and footer. Each of these sections can also be considered as candidates for rows within the grid layout.
+
+<!-- Image of Layout -->
+
 The result of this process concluded with the production of two finished prototype screens - mobile and desktop - which I would use as the basis for building each with HTML and CSS in the Development phase.
 
 <!-- Image of Combined Design Layout -->
@@ -156,4 +160,4 @@ The important part of the code is the `grid-row` property. For each element that
 
 ## Conclusion
 
-This challenge was great to get comfortable with CSS Grid layout. All areas of the layout were handled with CSS Grid, including areas that could conceivable be handled just as easily with Flexbox - the navigation section, for example. A great feature of CSS Grid is it's versatility for handling both simple and complex layout needs. A great benefit of CSS Grid is that it allows developers to write semantic HTML code and leave the visual layout to the CSS code separately.
+This challenge was great to get comfortable with CSS Grid layout. All areas of the layout were handled with CSS Grid, including areas that could conceivable be handled just as easily with Flexbox - the navigation section, for example. A great feature of CSS Grid is it's versatility for handling both simple and complex layout needs. A great benefit of CSS Grid is that it allows developers to write semantic HTML code and leave the visual layout to the CSS code separately. CSS Grid also lends itself to flexibility when building a responsive website. Taking advantage of flow of grid items within a grid layout, the transition from a complex grid for desktop to a simpler grid for mobile can be handled without too much difficulty.
