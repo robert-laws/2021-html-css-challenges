@@ -13,7 +13,9 @@
   --h3-heading: 1.3rem;
   --sub-heading: 1.2rem;
   --small-text: 1rem;
-  --big-text: 1.2rem;
+  --big-text: 1.25rem;
+
+  --post-line-height: 1.5rem;
 
   --post-vertical-spacer: 8px 0 2rem;
   --text-vertical-spacer: 9px 0 1px;
@@ -29,7 +31,9 @@
     --h3-heading: 1.2rem;
     --sub-heading: 1rem;
     --small-text: 0.9rem;
-    --big-text: 1.1rem;
+    --big-text: 1.15rem;
+
+    --post-line-height: 1.6rem;
 
     --post-vertical-spacer: 0 0 1rem;
     --text-vertical-spacer: 6px 0 3px;
@@ -46,7 +50,9 @@
     --h3-heading: 1.1rem;
     --sub-heading: 0.8rem;
     --small-text: 0.8rem;
-    --big-text: 1rem;
+    --big-text: 1.1rem;
+
+    --post-line-height: 1.7rem;
 
     --post-vertical-spacer: 0 0 1rem;
     --text-vertical-spacer: 5px 0 5px;
@@ -128,6 +134,10 @@ img {
 
 .text-vertical-spacer {
   margin: var(--text-vertical-spacer);
+}
+
+.text-line-height {
+  line-height: var(--post-line-height);
 }
 
 /* SMALL SCREEN */
