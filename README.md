@@ -2,7 +2,13 @@
 
 ## Challenges List
 
-- [Challenge no. 1](working-projects/completed/we-the-parents/README.md)
+- [Challenge no. 1 - Blog](working-projects/completed/we-the-parents/README.md)
+
+- [Challenge no. 2 - Blog](working-projects/completed/pinch-of-yum/README.md)
+
+- [Challenge no. 3 - E-Commerce](working-projects/completed/bohemian-traders/README.md)
+
+- [Challenge no. 4 - Travel Blog](working-projects/completed/traveling-mitch/README.md)
 
 ---
 
