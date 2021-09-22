@@ -10,7 +10,7 @@ The challenge, similar to ([previous challenges](https://www.robert-developer.co
 
 ## Designing with Components in Mind
 
-The approach taken in this challenge is to break down the elements on the website into their basic components and build up from there.
+The approach taken in this challenge is to analyze the website design and look for instances where elements are used within an atomic design pattern. This includes identifying elements in the design that are used as atoms as well as more complex combination of elements that can be identified as molecules and organisms. Analyzing the design in this way will help identify where there are foundational elements and combinations that can be used to build more complex parts of the website.
 
 <!-- Web Accessibility Initiative - Accessible Rich Internet Applications -->
 

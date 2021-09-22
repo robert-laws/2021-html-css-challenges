@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 10px;
+      }
+
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      .container > div {
+        width: 50%;
+      }
+
+      /* BUTTON */
+
+      .button {
+        display: inline-block;
+        padding: 2rem 2.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        transition: all 0.25s ease-in-out;
+        width: auto;
+      }
+
+      .button:hover {
+        transform: translateY(-0.2rem);
+      }
+
+      .button svg {
+        vertical-align: -0.25rem;
+      }
+
+      .button.outlined {
+        border: 1px solid #ccc;
+        background-color: transparent;
+        color: #000;
+      }
+
+      .button.full-width {
+        width: 100%;
+      }
+
+      .button.tag {
+        padding: 1.25rem 1.5rem;
+        border-radius: 1.25rem;
+      }
+
+      .button.blue {
+        background-color: #2561a5;
+        color: #fff;
+      }
+
+      .button.green {
+        background-color: #197919;
+        color: #fff;
+      }
+
+      .button.red {
+        background-color: #c02b2b;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <a class="button blue">Button Text</a>
+        <a class="button tag green">Button Text</a>
+        <a class="button red"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-funnel-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2z"
+            />
+          </svg>
+          Button Text</a
+        >
+        <a class="button outlined">Button Text</a>
+      </div>
+
+      <div><a class="button blue full-width">Button Text</a></div>
+      <div><a class="button outlined full-width">Button Text</a></div>
+    </div>
+  </body>
+</html>
