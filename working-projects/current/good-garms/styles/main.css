@@ -1,0 +1,148 @@
+/* MOBILE */
+/* :root {
+  --xl3-text: 2.2rem;
+  --xl-text: 3rem;
+  --h1-heading: 2rem;
+  --h2-heading: 1.5rem;
+  --h3-heading: 1.3rem;
+  --sub-heading: 1.2rem;
+  --small-text: 1rem;
+  --big-text: 1.25rem;
+  --post-line-height: 1.5rem;
+  --post-vertical-spacer: 8px 0 2rem;
+  --text-vertical-spacer: 9px 0 1px;
+} */
+
+/* TABLET */
+/* @media (min-width: 700px) {
+  :root {
+    --xl3-text: 3.3rem;
+    --xl-text: 2.6rem;
+    --h1-heading: 1.8rem;
+    --h2-heading: 1.4rem;
+    --h3-heading: 1.2rem;
+    --sub-heading: 1rem;
+    --small-text: 0.9rem;
+    --big-text: 1.15rem;
+    --post-line-height: 1.6rem;
+    --post-vertical-spacer: 0 0 1rem;
+    --text-vertical-spacer: 6px 0 3px;
+  }
+} */
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+  :root {
+    --sans-serif-font: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    --serif-font: 'Vollkorn', Georgia, serif;
+
+    --xl3-text: 3.5rem;
+    --xl-text: 2.4rem;
+    --h1-heading: 3.2rem;
+    --h2-heading: 2.4rem;
+    --h3-heading: 1.1rem;
+    --normal-text: 1.6rem;
+
+    /* Primary Colors */
+    --primary-color-blue: rgb(4, 30, 66);
+    --primary-color-gray: rgb(99, 102, 106);
+    --primary-color-gray-light: rgba(99, 102, 106, 0.2);
+
+    /* Secondary Colors */
+    --pantone-280: rgb(1, 33, 105);
+    --pantone-293: rgb(0, 61, 165);
+    --cool-gray-4: rgb(187, 188, 188);
+    --pantone-7527: rgb(214, 210, 196);
+
+    /* Tertiary Colors */
+    --pantone-306: rgb(0, 181, 226);
+    --pantone-202: rgb(134, 38, 51);
+    --pantone-369: rgb(100, 167, 11);
+    --pantone-199: rgb(213, 0, 50);
+    --pantone-1205: rgb(248, 224, 142);
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light {
+  font-weight: 100;
+}
+
+h1 {
+  font-size: var(--h1-heading);
+  font-family: var(--serif-font);
+}
+
+h2 {
+  font-size: var(--h2-heading);
+  font-family: var(--serif-font);
+}
+
+p,
+a {
+  font-size: var(--normal-text);
+  font-family: var(--sans-serif-font);
+}
+
+/* HEADER */
+.top-header {
+  height: 6rem;
+  border-bottom: var(--primary-color-gray-light) solid 1px;
+}
+
+.top-header-nav {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: inherit;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: inherit;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo > * {
+  display: inline-block;
+}
+
+.logo img {
+  height: 86%;
+  width: auto;
+}
+
+.logo h2 {
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigation a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navigation a:link,
+.navigation a:visited {
+  color: var(--primary-color-gray);
+}
+.navigation a:hover,
+.navigation a:active {
+  color: var(--primary-color-blue);
+}
