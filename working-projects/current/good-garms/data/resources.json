@@ -1,0 +1,13 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "brief_title": "Basic Microphone",
+      "full_title": "Logitech USB Desktop Microphone",
+      "description": "Microphone with standard quality and USB connection",
+      "category": "audio",
+      "projects": ["basic audio recording", "simple podcast"],
+      "image_url": "basic-microphone.jpg"
+    }
+  ]
+}
