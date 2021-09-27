@@ -31,9 +31,11 @@
   --xl-text: 2.4rem;
   --h1-heading: 3.2rem;
   --h2-heading: 3rem;
-  --h3-heading: 1.1rem;
-  --normal-text: 1.6rem;
-  --large-text: 2.4rem;
+  --h3-heading: 2.8rem;
+  --h4-heading: 2.6rem;
+  --h5-heading: 2.4rem;
+  --normal-text: 2rem;
+  --large-text: 2.2rem;
 }
 
 /* TABLET */
@@ -59,10 +61,12 @@
     --xl3-text: 3.5rem;
     --xl-text: 2.4rem;
     --h1-heading: 3.2rem;
-    --h2-heading: 2.4rem;
-    --h3-heading: 1.1rem;
-    --normal-text: 1.6rem;
-    --large-text: 1.8rem;
+    --h2-heading: 2.8rem;
+    --h3-heading: 2.6rem;
+    --h4-heading: 2.4rem;
+    --h5-heading: 2.2rem;
+    --normal-text: 1.8rem;
+    --large-text: 2rem;
   }
 }
 
@@ -85,6 +89,21 @@ h1 {
 
 h2 {
   font-size: var(--h2-heading);
+  font-family: var(--serif-font);
+}
+
+h3 {
+  font-size: var(--h3-heading);
+  font-family: var(--serif-font);
+}
+
+h4 {
+  font-size: var(--h4-heading);
+  font-family: var(--serif-font);
+}
+
+h5 {
+  font-size: var(--h5-heading);
   font-family: var(--serif-font);
 }
 

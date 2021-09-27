@@ -7,7 +7,34 @@
       "description": "Microphone with standard quality and USB connection",
       "category": "audio",
       "projects": ["basic audio recording", "simple podcast"],
-      "image_url": "basic-microphone.jpg"
+      "image_url": "logitech-usb-microphone.jpg"
+    },
+    {
+      "id": 2,
+      "brief_title": "Mid-Range Microphone",
+      "full_title": "Blue Microphones iCE USB Microphone",
+      "description": "Microphone with high quality and USB connection",
+      "category": "audio",
+      "projects": ["basic audio recording", "simple podcast"],
+      "image_url": "blue-ice-microphone.jpg"
+    },
+    {
+      "id": 3,
+      "brief_title": "Advanced Photo Editing Software",
+      "full_title": "Adobe Photoshop",
+      "description": "Photo editing and creator software",
+      "category": "software",
+      "projects": ["poster", "presentation"],
+      "image_url": "adobe-photoshop.jpg"
+    },
+    {
+      "id": 4,
+      "brief_title": "Basic Audio Editing Software",
+      "full_title": "Audacity",
+      "description": "Audio editing software with basic features",
+      "category": "software",
+      "projects": ["basic audio recording", "simple podcast"],
+      "image_url": "audacity-software.jpg"
     }
   ]
 }

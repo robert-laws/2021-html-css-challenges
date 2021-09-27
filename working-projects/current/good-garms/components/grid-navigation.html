@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Navigation</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/fonts.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <style>
+      .grid-header {
+        display: grid;
+        grid-template-columns: minmax(2rem, 1fr) minmax(auto, 1200px) minmax(
+            2rem,
+            1fr
+          );
+        grid-template-rows: 6rem;
+        border-bottom: #ccc 1px solid;
+      }
+
+      .grid-header-nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+      }
+
+      .grid-header-nav .grid-logo a {
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .grid-header-nav .grid-logo img {
+        height: 100%;
+        width: auto;
+        padding: 0.5rem;
+      }
+
+      .grid-header-nav .grid-logo a {
+        text-decoration: none;
+      }
+
+      .grid-header-nav .grid-logo a:link,
+      .grid-header-nav .grid-logo a:visited {
+        color: var(--black);
+        transition: all 0.2s ease-out;
+      }
+      .grid-header-nav .grid-logo a:hover,
+      .grid-header-nav .grid-logo a:active {
+        color: var(--pantone-199);
+        transition: all 0.3s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="grid-header">
+      <aside></aside>
+      <nav class="grid-header-nav">
+        <div class="grid-logo">
+          <a href="/">
+            <img
+              src="../images/logo-small.png"
+              alt="Creativity Launchpad Logo"
+              loading="lazy"
+            />
+            <h2 class="bold">Creativity Launchpad</h2>
+          </a>
+        </div>
+        <div class="grid-navigation">
+          <a href="#">Resources</a>
+          <a href="#">Projects</a>
+          <a href="#">Articles</a>
+          <a href="#">About</a>
+        </div>
+      </nav>
+      <aside></aside>
+    </header>
+  </body>
+</html>
