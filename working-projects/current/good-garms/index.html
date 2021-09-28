@@ -7,22 +7,22 @@
     <title>Creativity Launchpad</title>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="styles/site-styles.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <div class="site-grid-container">
-      <header>
-        <nav class="top-header-nav">
-          <div class="logo">
-            <a href="/">
-              <img
-                src="images/logo-small.png"
-                alt="Creativity Launchpad Logo"
-                loading="lazy"
-              />
-              <h2>Creativity Launchpad</h2>
-            </a>
-          </div>
+    <div class="site-container">
+      <header class="site-header">
+        <nav class="site-nav">
+          <a class="site-logo" href="/">
+            <img
+              class="logo-img"
+              src="images/logo-small.png"
+              alt="Creativity Launchpad Logo"
+              loading="lazy"
+            />
+            <h2>Creativity Launchpad</h2>
+          </a>
+
           <div class="navigation">
             <a href="#">Resources</a>
             <a href="#">Projects</a>
@@ -31,8 +31,72 @@
           </div>
         </nav>
       </header>
-      <main>main</main>
-      <footer>footer</footer>
+      <main class="site-main">
+        <section class="main-buttons">
+          <div class="button-group">
+            <a href="#" class="button blue">Filter</a>
+          </div>
+          <div class="button-group">
+            <a href="#" class="button outlined">A - Z</a>
+            <a href="#" class="button outlined margin-left">Recent</a>
+          </div>
+        </section>
+        <section class="cards">
+          <figure>
+            <img src="images/adobe-photoshop.jpg" alt="" />
+            <figcaption>
+              <h5 class="bold">Adobe Photoshop</h5>
+              <p>Image Editing Software</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/audacity-software.JPG" alt="" />
+            <figcaption>
+              <h5 class="bold">Audacity</h5>
+              <p>Audio Editing Software</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/blue-ice-microphone.jpg" alt="" />
+            <figcaption>
+              <h5 class="bold">Blue iCE Microphone</h5>
+              <p>Basic USB Microphone</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/canon-EF-S-18-135mm-lens.jpg" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="images/canon-rebel-T7-camera.jpg" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="images/canon-speedlight-600EX.jpg" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="images/finalcutx-vl.jpg" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/canon-XA40-professional-video-camcorder-kit.jpg"
+              alt=""
+            />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="images/gopro-hero9-video-camera.jpg" alt="" />
+            <figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="images/logitech-usb-microphone.jpg" alt="" />
+            <figcaption></figcaption>
+          </figure>
+        </section>
+      </main>
+      <footer class="site-footer">footer</footer>
     </div>
   </body>
 </html>
