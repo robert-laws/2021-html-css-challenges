@@ -40,6 +40,7 @@
   --h6-heading: 2rem;
   --normal-text: 2rem;
   --large-text: 2.2rem;
+  --small-text: 1.8rem;
 }
 
 @media (min-width: 1280px) {
@@ -54,18 +55,22 @@
     --h6-heading: 2rem;
     --normal-text: 1.8rem;
     --large-text: 2rem;
+    --small-text: 1.6rem;
   }
 }
 
 .margin-left {
   margin-left: 1rem;
 }
+
 .margin-right {
   margin-right: 1rem;
 }
+
 .margin-top {
   margin-top: 1rem;
 }
+
 .margin-bottom {
   margin-bottom: 1rem;
 }
@@ -171,18 +176,18 @@ li {
 }
 
 .button.blue {
-  background-color: #2561a5;
-  color: #fff;
+  background-color: var(--pantone-293);
+  color: var(--white);
 }
 
 .button.green {
-  background-color: #197919;
-  color: #fff;
+  background-color: var(--pantone-369);
+  color: var(--white);
 }
 
 .button.red {
-  background-color: #c02b2b;
-  color: #fff;
+  background-color: var(--pantone-199);
+  color: var(--white);
 }
 
 .site-container > * {
@@ -302,6 +307,19 @@ li {
 
 .related-buttons > * {
   margin-right: 1rem;
+}
+
+.related-buttons h6 {
+  font-family: var(--sans-serif-font);
+  font-size: var(--small-text);
+  font-weight: bold;
+  color: var(--primary-color-gray);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.resource-description p {
+  line-height: 2.8rem;
 }
 
 .cards {
