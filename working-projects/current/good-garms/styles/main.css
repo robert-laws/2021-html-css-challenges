@@ -178,7 +178,7 @@ li {
 
 .site-container > * {
   display: grid;
-  grid-template-columns: minmax(6rem, 1fr) minmax(auto, 1200px) minmax(
+  grid-template-columns: minmax(6rem, 1fr) repeat(2, minmax(auto, 600px)) minmax(
       6rem,
       1fr
     );
@@ -194,7 +194,7 @@ li {
 .site-nav {
   margin: 1rem auto 2rem;
   width: 100%;
-  grid-column: 2 / 3;
+  grid-column: 2 / 4;
 
   display: flex;
   flex-direction: column;
@@ -256,7 +256,7 @@ li {
 
 .site-main section,
 .site-footer section {
-  grid-column: 2 /3;
+  grid-column: 2 / 4;
 }
 
 .main-buttons {
@@ -315,24 +315,37 @@ li {
 
 .site-footer-container h5 {
   text-transform: uppercase;
-  margin-bottom: 0;
-  margin-top: 4rem;
+  padding-top: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  border-top: 1px solid var(--primary-color-gray-light);
 }
 
 .site-footer-list li {
-  font-family: var(--serif-font);
   font-size: var(--large-text);
   margin: 2rem 0;
+  font-weight: bold;
+}
+
+.site-footer-list li a {
+  font-family: var(--serif-font);
+}
+
+.site-footer-brand .site-logo {
+  margin-top: -2.5rem;
+  margin-bottom: 2rem;
 }
 
 .site-footer-brand p {
+  font-size: 2rem;
   margin: 1rem 0;
   line-height: 3rem;
 }
 
 .social-icons svg {
   margin-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .site-footer-copyright {
@@ -406,7 +419,9 @@ li {
 
   .site-footer-container h5 {
     margin-bottom: 4rem;
+    padding-top: 0;
     margin-top: 0;
+    border-top: 0;
   }
 
   .social-icons svg {
@@ -415,9 +430,7 @@ li {
   }
 
   .site-footer-brand p {
-    font-size: 2.2rem;
     margin: -0.2rem 15rem 0 0;
-    line-height: 3rem;
   }
 
   .site-footer-copyright {
