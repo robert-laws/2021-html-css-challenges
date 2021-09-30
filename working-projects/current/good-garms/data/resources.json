@@ -4,7 +4,8 @@
       "id": 1,
       "brief_title": "Basic Microphone",
       "full_title": "Logitech USB Desktop Microphone",
-      "description": "Microphone with standard quality and USB connection",
+      "brief_description": "Microphone with standard quality and USB connection",
+      "long_description": "",
       "category": "audio",
       "projects": ["basic audio recording", "simple podcast"],
       "image_url": "logitech-usb-microphone.jpg"
@@ -12,17 +13,23 @@
     {
       "id": 2,
       "brief_title": "Mid-Range Microphone",
-      "full_title": "Blue Microphones iCE USB Microphone",
-      "description": "Microphone with high quality and USB connection",
+      "full_title": "Blue iCE USB Microphone",
+      "brief_description": "Microphone with decent quality and USB connection",
+      "long_description": "Blue Snowball iCE is a stylish, entry USB mic with an attractive price tag. Unlike the similar-shaped Samson Meteorite, it is not as blatantly hot and it has a detachable USB cable with a solid Type B connector. The midrange is by far superior and technically, it produces a much more accurate sound than the former.",
       "category": "audio",
       "projects": ["basic audio recording", "simple podcast"],
-      "image_url": "blue-ice-microphone.jpg"
+      "image_url": "blue-ice-microphone.jpg",
+      "requires_training": false,
+      "items_included": ["microphone", "small tripod stand", "USB cable"],
+      "notes": "The microphone requires connection to a computer for usage.",
+      "tips": "The Blue iCE Microphone is advised for most class projects and basic podcasts. The sound quality of the microphone is acceptable. Also good for use with audio or video conferencing."
     },
     {
       "id": 3,
       "brief_title": "Advanced Photo Editing Software",
       "full_title": "Adobe Photoshop",
-      "description": "Photo editing and creator software",
+      "brief_description": "Photo editing and creator software",
+      "long_description": "",
       "category": "software",
       "projects": ["poster", "presentation"],
       "image_url": "adobe-photoshop.jpg"
@@ -31,7 +38,8 @@
       "id": 4,
       "brief_title": "Basic Audio Editing Software",
       "full_title": "Audacity",
-      "description": "Audio editing software with basic features",
+      "brief_description": "Audio editing software with basic features",
+      "long_description": "",
       "category": "software",
       "projects": ["basic audio recording", "simple podcast"],
       "image_url": "audacity-software.jpg"
