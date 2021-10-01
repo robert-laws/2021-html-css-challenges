@@ -437,6 +437,10 @@ li {
   margin: 1rem 0;
 }
 
+.article-content h3 {
+  color: var(--pantone-202);
+}
+
 .article-image {
   height: inherit;
   flex: 0 0 100%;
