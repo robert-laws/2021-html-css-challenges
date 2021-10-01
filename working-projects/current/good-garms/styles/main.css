@@ -31,6 +31,7 @@
 
   /* Text Sizing */
   --xl3-text: 4.5rem;
+  --xl2-text: 3.5rem;
   --xl-text: 2.4rem;
   --h1-heading: 3.2rem;
   --h2-heading: 3rem;
@@ -44,9 +45,10 @@
   --small-text: 1.8rem;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   :root {
     --xl3-text: 6rem;
+    --xl2-text: 4rem;
     --xl-text: 2.4rem;
     --h1-heading: 3.2rem;
     --h2-heading: 2.8rem;
@@ -305,7 +307,11 @@ li {
   margin: 4rem 0;
 }
 
-.resource-content-text h5 {
+.resource-content-text h1 {
+  line-height: 1.1;
+}
+
+.resource-content-text h3 {
   text-transform: uppercase;
 }
 
@@ -327,6 +333,7 @@ li {
 }
 
 .resource-description p {
+  font-size: var(--large-text);
   line-height: 2.8rem;
 }
 
@@ -348,6 +355,7 @@ li {
 }
 
 .resource-details-text h2 {
+  font-size: var(--xl2-text);
   margin-bottom: 3rem;
 }
 
@@ -359,14 +367,21 @@ li {
   border-top: 1px solid var(--primary-color-gray-light);
 }
 
+.details-title:first-of-type {
+  border-top: 0;
+}
+
 .details-title p:first-child {
   text-transform: uppercase;
-  flex: 0 0 180px;
+  flex: 0 0 40%;
+  font-size: var(--large-text);
+  font-family: var(--serif-font);
 }
 
 .details-title p:last-child {
   flex: 1;
   text-align: right;
+  font-size: var(--large-text);
 }
 
 .resource-details-text .details-title ul {
@@ -388,14 +403,21 @@ li {
 .resource-details-image-container {
   height: 600px;
   width: 400px;
-  border-radius: 1rem;
-  overflow: hidden;
 }
 
 .resource-details-image-container img {
   height: 100%;
   width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
   object-fit: cover;
+}
+
+.resource-details-image-container figcaption {
+  text-align: right;
+  margin: 1rem 0;
+  font-size: var(--small-text);
+  font-family: var(--sans-serif-font);
 }
 
 .articles {
@@ -727,16 +749,20 @@ li {
   }
 
   .resource-details-text {
-    width: 58%;
+    width: 72%;
   }
 
   .resource-details-text h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
   }
 
   .details-title {
     display: flex;
     justify-content: space-between;
+  }
+
+  .details-title li {
+    font-size: var(--large-text);
   }
 
   .resource-details-image {
