@@ -779,7 +779,7 @@ main.home-page {
   grid-auto-rows: auto;
   justify-content: center;
   row-gap: 1rem;
-  column-gap: 30px;
+  column-gap: 3rem;
 }
 
 .cards {
@@ -789,7 +789,7 @@ main.home-page {
   grid-auto-rows: auto;
   justify-content: center;
   row-gap: 1rem;
-  column-gap: 30px;
+  column-gap: 3rem;
 }
 
 .cards .card,
