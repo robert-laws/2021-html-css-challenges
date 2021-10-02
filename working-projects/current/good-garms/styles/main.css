@@ -852,6 +852,10 @@ main.home-page {
   border-top: 1px solid var(--primary-color-gray-light);
 }
 
+.site-footer-container div:first-child {
+  border-top: 0;
+}
+
 .site-footer-container .heading-column {
   font-size: var(--large-text);
   font-family: var(--serif-font);
