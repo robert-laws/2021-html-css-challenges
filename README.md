@@ -10,6 +10,8 @@
 
 - [Challenge no. 4 - Travel Blog](working-projects/completed/traveling-mitch/README.md)
 
+- [Challenge no. 5 - E-Commerce](working-projects/completed/good-garms/README.md)
+
 ---
 
 ## Concept
