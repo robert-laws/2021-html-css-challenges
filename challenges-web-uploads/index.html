@@ -1,29 +1,381 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UX/HTML/CSS Design and Code Challenges</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Library Systems Analyst Candidate Presentation • Robert Laws</title>
+
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="./plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
   </head>
   <body>
-    <h1>UX/HTML/CSS Design and Code Challenges</h1>
-    <ul>
-      <li>
-        <a href="challenges/one">Challenge One</a>
-      </li>
-      <li>
-        <a href="challenges/two">Challenge Two</a>
-      </li>
-      <li>
-        <a href="challenges/three">Challenge Three</a>
-      </li>
-      <li>
-        <a href="challenges/four">Challenge Four</a>
-      </li>
-      <li>
-        <a href="challenges/five">Challenge Five</a>
-      </li>
-    </ul>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate>
+          <!-- Title Slide -->
+          <h2
+            style="
+              color: rgb(6, 80, 177);
+              text-transform: none;
+              font-size: 3.2rem;
+            "
+          >
+            The Importance of Web Accessibility in a College Setting
+          </h2>
+          <img
+            data-src="./images/accessibility-title.jpg"
+            style="
+              height: 300px;
+              padding: 0.25px 0 -0.25px;
+              margin: 0;
+              border: 5px solid rgb(180, 180, 180);
+            "
+          />
+          <p>
+            <strong>Robert Laws</strong><br />Technology & Instruction Librarian
+          </p>
+        </section>
+
+        <section>
+          <section data-auto-animate>
+            <h3 style="font-size: 6rem">
+              1. What is Accessibility & why it is Important?
+            </h3>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">What is Accessibility?</h3>
+            <ul style="list-style: none; color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong
+                  >Enabling as many people as possible to use Web sites, even
+                  when those people's abilities are limited in some way.</strong
+                >
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Four Principles of Website Accessibility
+            </h3>
+            <p style="font-style: italic; font-size: 28px; margin-top: -20px">
+              <a
+                target="_blank"
+                href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head"
+                >From the Web Content Accessibility Guidelines (WCAG)</a
+              >
+            </p>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong>Perceivable</strong>: Users must be able to perceive it
+                in some way, using one or more of their senses.
+              </li>
+              <li class="fragment fade-up">
+                <strong>Operable</strong>: Users must be able to control UI
+                elements (e.g. clickable buttons, mouse, keyboard, etc.).
+              </li>
+              <li class="fragment fade-up">
+                <strong>Understandable</strong>: The content must be
+                understandable to its users.
+              </li>
+              <li class="fragment fade-up">
+                <strong>Robust</strong>: The content must be developed using
+                well-adopted web standards that will work across different
+                browsers, now and in the future.
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">Why is it Important?</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong>Legal Requirements</strong>:
+                <a href="https://www.ada.gov/" target="_blank"
+                  >American Disabilities Act</a
+                >
+                (1990) requires organizations to provide “reasonable
+                accommodations” to employees with disabilities.
+              </li>
+              <li class="fragment fade-up">
+                <strong>Maximize Impact</strong>: Providing information and
+                services to more people is good for business.
+              </li>
+              <li class="fragment fade-up">
+                <strong>Moral Values</strong>: building empathy and improving
+                the user experience for people with disabilities is a value we
+                should support.
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section data-auto-animate>
+            <h3 style="font-size: 6rem">2. Identifying Accessibility Issues</h3>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Accessibility Guidelines & Checklists
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://www.w3.org/WAI/standards-guidelines/wcag/"
+                    target="_blank"
+                    >Web Content Accessibility Guidelines</a
+                  >
+                  (WCAG)</strong
+                >
+                - provides detailed information about all accessibility
+                standards and their application.
+              </li>
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://webaim.org/standards/wcag/checklist"
+                    target="_blank"
+                    >WebAIM’s WCAG 2 Checklist</a
+                  ></strong
+                >
+                - a user-friendly checklist of the most important WCAG
+                guidelines.
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">Tools and Resources</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong>Online Accessibility Testers</strong>
+                - provides detailed information about all accessibility
+                standards and their application.
+              </li>
+              <li class="fragment fade-up">
+                <strong>Browser Extensions</strong>
+                - a user-friendly checklist of the most important WCAG
+                guidelines.
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Live Examples - Online Accessibility Testers
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://wave.webaim.org/report#/https://library.lanecc.edu"
+                    target="_blank"
+                    >Lane Community College Library Home Page</a
+                  ></strong
+                >
+                - using WAVE Web Accessibility Evaluation Tool
+              </li>
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://accessibe.com/ace?website=https://library.lanecc.edu/services"
+                    target="_blank"
+                    >Library Website, "Use the Library Page"</a
+                  ></strong
+                >
+                - using ace from accessibe
+              </li>
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://mauve.isti.cnr.it/singleValidation.jsp"
+                    target="_blank"
+                    >Mauve</a
+                  ></strong
+                >
+                - LibGuides Page
+                <a
+                  href="https://libraryguides.lanecc.edu/writing"
+                  target="_blank"
+                  >https://libraryguides.lanecc.edu/writing</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Live Examples - Browser Extensions
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://chrome.google.com/webstore/detail/arc-toolkit/"
+                    target="_blank"
+                    >Arc Toolkit</a
+                  ></strong
+                >
+                - checking LibGuide page
+                <a
+                  href="https://libraryguides.lanecc.edu/BUS101"
+                  target="_blank"
+                  >https://libraryguides.lanecc.edu/BUS101</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                <strong
+                  ><a
+                    href="https://chrome.google.com/webstore/detail/axe-devtools-web-accessib"
+                    target="_blank"
+                    >Axe DevTools</a
+                  ></strong
+                >
+                - checking
+                <a
+                  href="https://alliance-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=LANECC&tab=default_tab&mode=advanced"
+                  >Primo VE</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Live Examples - Manual Checking
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <strong
+                  ><a href="https://library.lanecc.edu" target="_blank"
+                    >Lane Community College - Library Home Page</a
+                  ></strong
+                >
+              </li>
+              <li class="fragment fade-up">
+                <strong
+                  ><a href="https://libraryguides.lanecc.edu" target="_blank"
+                    >Lane Community College - LibGuides Home Page</a
+                  ></strong
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section data-auto-animate>
+            <h3 style="font-size: 6rem">3. Coaching Staff</h3>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              How to Help Staff Understand Accessibility
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li style="list-style-type: none" class="fragment fade-up">
+                <strong>Workshops on Accessibility - covering topics</strong>:
+                <ul class="fragment fade-up">
+                  <li>color contrast</li>
+                  <li>images best practices</li>
+                  <li>alt tags</li>
+                  <li>logical headings (H1, H2, H3, etc.)</li>
+                  <li>meaningful hyperlinks</li>
+                  <li>semantic use of HTML elements (ex. table, lists)</li>
+                  <li>captions for videos</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              How to Help Staff Understand Accessibility
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li style="list-style-type: none" class="fragment fade-up">
+                <strong>Provide Additional Support</strong>:
+                <ul class="fragment fade-up">
+                  <li>Provide documentation on accessibility workflows</li>
+                  <li>
+                    Communicate with staff members who have questions about
+                    accessibility
+                  </li>
+                  <li>
+                    Add tools within the CMS to help staff when creating content
+                    (ex. CKEditor Accessibility Checker)
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Demonstrate Advanced Accessibility Features
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li style="list-style-type: none" class="fragment fade-up">
+                <strong
+                  >Help Staff to Understand Accessibility Features - covering
+                  topics</strong
+                >:
+                <ul class="fragment fade-up">
+                  <li>Skip to Content Links</li>
+                  <li>Tab Order</li>
+                  <li>Wai-ARIA tags</li>
+                  <li>Reduced Motion Options</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Test Website for Accessibility
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li style="list-style-type: none" class="fragment fade-up">
+                <strong
+                  >Build empathy by sharing the experience of disabled
+                  users</strong
+                >:
+                <ul class="fragment fade-up">
+                  <li>Use a screen reader to access the website</li>
+                  <li>Navigate the website only using a keyboard</li>
+                  <li>Simulate color blindness</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section data-auto-animate>
+            <h3 style="font-size: 6rem">Thank You</h3>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        showSlideNumber: 'all',
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealZoom, RevealHighlight, RevealNotes],
+      });
+    </script>
   </body>
 </html>
