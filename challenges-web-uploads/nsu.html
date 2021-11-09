@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Project Presentation - Lesson Plan Builder • Robert Laws</title>
+
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="./plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+    <style>
+      li {
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate>
+          <!-- Title Slide -->
+          <h2
+            style="
+              color: rgb(6, 80, 177);
+              text-transform: none;
+              font-size: 3.2rem;
+            "
+          >
+            Project Presentation - Lesson Plan Builder
+          </h2>
+          <img
+            data-src="./images/lesson-builder-home-page.png"
+            style="
+              height: 300px;
+              padding: 0.25px 0 -0.4px;
+              margin: 0;
+              border: 5px solid rgb(180, 180, 180);
+            "
+          />
+          <p>
+            <strong>Robert Laws</strong><br />Technology & Instruction Librarian
+          </p>
+        </section>
+
+        <section>
+          <section data-auto-animate>
+            <h3 style="font-size: 6rem">Project Details</h3>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Project background and rationale
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                speed up creation of lesson plans
+              </li>
+              <li class="fragment fade-up">consistent data entry</li>
+              <li class="fragment fade-up">
+                linkages with other services (ex. Instruction request service)
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">
+              Headless CMS - concept and components
+            </h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <a
+                  href="https://blog.cpanel.com/how-to-use-wordpress-as-a-headless-cms/"
+                  target="_blank"
+                  >WordPress as a Headless CMS</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                <a
+                  href="https://developer.wordpress.org/rest-api/"
+                  target="_blank"
+                  >WordPress REST API</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                WP Plug-in -
+                <a
+                  href="https://wordpress.org/plugins/advanced-custom-fields/"
+                  target="_blank"
+                  >Advanced Custom Fields</a
+                >
+                (ACF) &
+                <a
+                  href="https://wordpress.org/plugins/acf-to-rest-api/"
+                  target="_blank"
+                  >ACF to REST API</a
+                >
+                integration
+              </li>
+              <li class="fragment fade-up">
+                <a href="https://reactjs.org/" target="_blank">React</a> front
+                end
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">Tools</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <a href="https://wordpress.com/" target="_blank">WordPress</a>
+              </li>
+              <li class="fragment fade-up">
+                IDE -
+                <a href="https://code.visualstudio.com/" target="_blank"
+                  >VSCode</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                <a href="https://www.postman.com/" target="_blank">Postman</a> -
+                REST Client
+              </li>
+              <li class="fragment fade-up">
+                <a
+                  href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en"
+                  target="_blank"
+                  >React DEV tools</a
+                >
+                - chrome extension
+              </li>
+              <li class="fragment fade-up">
+                GitHub -
+                <a
+                  href="https://github.com/robert-laws/project-apr-2021-lesson-plan-builder"
+                  target="_blank"
+                  >project repository</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">Authentication</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                Install
+                <a
+                  href="https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/"
+                  target="_blank"
+                  >JWT Authentication WordPress plugin</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                Update .htaccess file to allow HTTP Authorization Headers
+              </li>
+              <li class="fragment fade-up">
+                Front End - asynchronous POST request - return a 'bearer token'
+                and save it into a cookie
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">Lessons List & Lesson Detail</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">REST API GET query</li>
+              <li class="fragment fade-up">
+                Load data into state using Context API
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">New Lesson Form</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                REST API queries for linked data (ex. Instructors, courses,
+                concepts)
+              </li>
+              <li class="fragment fade-up">
+                Build lesson - maintain data in state with Context API
+              </li>
+              <li class="fragment fade-up">
+                Drag and Drop - module dependency
+                <a
+                  href="https://react-dnd.github.io/react-dnd/about"
+                  target="_blank"
+                  >React DnD</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                Validation - (ex. required fields before button for next step is
+                active)
+              </li>
+              <li class="fragment fade-up">
+                Save - POST query with body = form data is JSON format
+              </li>
+            </ul>
+          </section>
+          <section data-auto-animate>
+            <h3 style="color: rgb(6, 80, 177)">UI</h3>
+            <ul style="color: rgb(62, 62, 62)">
+              <li class="fragment fade-up">
+                <a href="https://tailwindcss.com/" target="_blank"
+                  >TailwindCSS</a
+                >
+              </li>
+              <li class="fragment fade-up">
+                Responsive layout (ex. home page, new lesson form)
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section data-auto-animate>
+            <h3 style="font-size: 6rem">Thank You</h3>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        showSlideNumber: 'all',
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealZoom, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
